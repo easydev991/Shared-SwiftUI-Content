@@ -1,34 +1,11 @@
 //
-//  ContentView.swift
+//  UIKitTextViewExample.swift
 //  Shared SwiftUI Content
 //
-//  Created by Олег Еременко on 04.02.2023.
+//  Created by Олег Еременко on 24.06.2023.
 //
 
 import SwiftUI
-
-struct ContentView: View {
-    let colors: [Color] = [
-        .black, .blue, .brown, .gray,
-        .green, .red, .cyan, .indigo, .yellow
-    ]
-
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
 
 struct UIKitTextView: UIViewRepresentable {
     @Binding var text: String
