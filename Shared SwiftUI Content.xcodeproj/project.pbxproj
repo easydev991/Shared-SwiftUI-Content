@@ -16,6 +16,7 @@
 		67537DC32A46C66300BBF348 /* ViewWithTaskExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67537DC22A46C66300BBF348 /* ViewWithTaskExample.swift */; };
 		6764F6C42A07A96E00242A76 /* RoundedCornerShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6764F6C32A07A96E00242A76 /* RoundedCornerShape.swift */; };
 		677022242A21ECDA00BAB4C5 /* OverlayPreferenceKeyExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677022232A21ECDA00BAB4C5 /* OverlayPreferenceKeyExample.swift */; };
+		677B0B032A503C4000562A63 /* FillVSForegroundColorExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677B0B022A503C4000562A63 /* FillVSForegroundColorExample.swift */; };
 		67939CEF298E422700B7F059 /* Shared_SwiftUI_ContentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67939CEE298E422700B7F059 /* Shared_SwiftUI_ContentApp.swift */; };
 		67939CF3298E422900B7F059 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67939CF2298E422900B7F059 /* Assets.xcassets */; };
 		67939CF6298E422900B7F059 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67939CF5298E422900B7F059 /* Preview Assets.xcassets */; };
@@ -39,6 +40,7 @@
 		67537DC22A46C66300BBF348 /* ViewWithTaskExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewWithTaskExample.swift; sourceTree = "<group>"; };
 		6764F6C32A07A96E00242A76 /* RoundedCornerShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerShape.swift; sourceTree = "<group>"; };
 		677022232A21ECDA00BAB4C5 /* OverlayPreferenceKeyExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayPreferenceKeyExample.swift; sourceTree = "<group>"; };
+		677B0B022A503C4000562A63 /* FillVSForegroundColorExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillVSForegroundColorExample.swift; sourceTree = "<group>"; };
 		67939CEB298E422700B7F059 /* Shared SwiftUI Content.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shared SwiftUI Content.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67939CEE298E422700B7F059 /* Shared_SwiftUI_ContentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared_SwiftUI_ContentApp.swift; sourceTree = "<group>"; };
 		67939CF2298E422900B7F059 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				670098402A3D95900083A058 /* StrikeThroughExample.swift */,
 				67537DC02A46C5C300BBF348 /* UIKitTextViewExample.swift */,
 				67537DC22A46C66300BBF348 /* ViewWithTaskExample.swift */,
+				677B0B022A503C4000562A63 /* FillVSForegroundColorExample.swift */,
 			);
 			path = "Shared SwiftUI Content";
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				67939CFD298E425A00B7F059 /* CustomSecureField.swift in Sources */,
 				670098412A3D95900083A058 /* StrikeThroughExample.swift in Sources */,
 				6734D36629BB91AE0000B5B1 /* ChatGPTExperiment.swift in Sources */,
+				677B0B032A503C4000562A63 /* FillVSForegroundColorExample.swift in Sources */,
 				67939D01298E484400B7F059 /* UIKitViewDidAppear.swift in Sources */,
 				67CEB8D72A2B218D00F6117F /* DisableUserInteractionExample.swift in Sources */,
 				677022242A21ECDA00BAB4C5 /* OverlayPreferenceKeyExample.swift in Sources */,
