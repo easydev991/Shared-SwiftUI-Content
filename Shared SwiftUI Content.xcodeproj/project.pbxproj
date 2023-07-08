@@ -22,6 +22,7 @@
 		67939CF6298E422900B7F059 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67939CF5298E422900B7F059 /* Preview Assets.xcassets */; };
 		67939CFD298E425A00B7F059 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67939CFC298E425A00B7F059 /* CustomSecureField.swift */; };
 		67939D01298E484400B7F059 /* UIKitViewDidAppear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67939D00298E484400B7F059 /* UIKitViewDidAppear.swift */; };
+		679846552A5969C000EC6EBA /* ProgressBarExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679846542A5969C000EC6EBA /* ProgressBarExample.swift */; };
 		67A29FA52A02E06500DDC00C /* TestTextsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A29FA42A02E06500DDC00C /* TestTextsView.swift */; };
 		67A91A742A362BFA005C245D /* MultipleSheetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A91A732A362BFA005C245D /* MultipleSheetsView.swift */; };
 		67B3E74729EA954900FD7B6F /* BorderVsStrokeBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B3E74629EA954900FD7B6F /* BorderVsStrokeBorder.swift */; };
@@ -48,6 +49,7 @@
 		67939CFC298E425A00B7F059 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
 		67939D00298E484400B7F059 /* UIKitViewDidAppear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitViewDidAppear.swift; sourceTree = "<group>"; };
 		67939D02298E4A9100B7F059 /* Shared-SwiftUI-Content-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Shared-SwiftUI-Content-Info.plist"; sourceTree = SOURCE_ROOT; };
+		679846542A5969C000EC6EBA /* ProgressBarExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarExample.swift; sourceTree = "<group>"; };
 		67A29FA42A02E06500DDC00C /* TestTextsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextsView.swift; sourceTree = "<group>"; };
 		67A91A732A362BFA005C245D /* MultipleSheetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsView.swift; sourceTree = "<group>"; };
 		67B3E74629EA954900FD7B6F /* BorderVsStrokeBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderVsStrokeBorder.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				67537DC02A46C5C300BBF348 /* UIKitTextViewExample.swift */,
 				67537DC22A46C66300BBF348 /* ViewWithTaskExample.swift */,
 				677B0B022A503C4000562A63 /* FillVSForegroundColorExample.swift */,
+				679846542A5969C000EC6EBA /* ProgressBarExample.swift */,
 			);
 			path = "Shared SwiftUI Content";
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				67D79B8E29AE5D3C00AD89FD /* TabViewExample.swift in Sources */,
 				67B3E74729EA954900FD7B6F /* BorderVsStrokeBorder.swift in Sources */,
 				6707921F2A0436DB00FCF275 /* VerticalPagingView.swift in Sources */,
+				679846552A5969C000EC6EBA /* ProgressBarExample.swift in Sources */,
 				670792212A043BAB00FCF275 /* ScrollViewOffset.swift in Sources */,
 				67A29FA52A02E06500DDC00C /* TestTextsView.swift in Sources */,
 			);
