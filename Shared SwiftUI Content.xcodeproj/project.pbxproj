@@ -38,6 +38,7 @@
 		67CEB8D72A2B218D00F6117F /* DisableUserInteractionExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CEB8D62A2B218D00F6117F /* DisableUserInteractionExample.swift */; };
 		67D79B8E29AE5D3C00AD89FD /* TabViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D79B8D29AE5D3C00AD89FD /* TabViewExample.swift */; };
 		67DEDCEE29FD0F9A00D46277 /* SafeAreaExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DEDCED29FD0F9A00D46277 /* SafeAreaExample.swift */; };
+		67EA14922AACC15E00CC8057 /* BackButtonTitleExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EA14912AACC15E00CC8057 /* BackButtonTitleExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +76,7 @@
 		67CEB8D62A2B218D00F6117F /* DisableUserInteractionExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisableUserInteractionExample.swift; sourceTree = "<group>"; };
 		67D79B8D29AE5D3C00AD89FD /* TabViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewExample.swift; sourceTree = "<group>"; };
 		67DEDCED29FD0F9A00D46277 /* SafeAreaExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaExample.swift; sourceTree = "<group>"; };
+		67EA14912AACC15E00CC8057 /* BackButtonTitleExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButtonTitleExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 				676762542A909E0500982F32 /* TabViewFilledIconExample.swift */,
 				673F24E92A99E87300EBF940 /* PluralsLocalizationExample.swift */,
 				678217922AA4807B00FA8A96 /* PrintChangesExample.swift */,
+				67EA14912AACC15E00CC8057 /* BackButtonTitleExample.swift */,
 			);
 			path = "Shared SwiftUI Content";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				67B0164A2A6BACF000A55D40 /* SwitchCaseAnimationExample.swift in Sources */,
 				671E1E032A87880F0040B818 /* BindingGetSetExample.swift in Sources */,
 				67A29FA52A02E06500DDC00C /* TestTextsView.swift in Sources */,
+				67EA14922AACC15E00CC8057 /* BackButtonTitleExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
