@@ -32,10 +32,8 @@ struct TestTextsView: View {
     }
 }
 
-struct TestTextsView_Previews: PreviewProvider {
-    static var previews: some View {
-        TestTextsView()
-    }
+#Preview {
+    TestTextsView()
 }
 
 class CustomView: UIView {

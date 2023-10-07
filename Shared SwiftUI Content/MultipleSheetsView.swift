@@ -73,8 +73,6 @@ extension MultipleSheetsView {
     }
 }
 
-struct MultipleSheetsView_Previews: PreviewProvider {
-    static var previews: some View {
-        MultipleSheetsView()
-    }
+#Preview {
+    MultipleSheetsView()
 }

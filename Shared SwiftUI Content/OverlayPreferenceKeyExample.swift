@@ -42,8 +42,6 @@ struct OverlayPreferenceKeyExample: View {
     }
 }
 
-struct OverlayPreferenceKeyExample_Previews: PreviewProvider {
-    static var previews: some View {
-        OverlayPreferenceKeyExample()
-    }
+#Preview {
+    OverlayPreferenceKeyExample()
 }

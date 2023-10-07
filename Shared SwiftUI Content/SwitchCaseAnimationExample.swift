@@ -57,8 +57,6 @@ extension View {
     }
 }
 
-struct SwitchCaseAnimationExample_Previews: PreviewProvider {
-    static var previews: some View {
-        SwitchCaseAnimationExample()
-    }
+#Preview {
+    SwitchCaseAnimationExample()
 }

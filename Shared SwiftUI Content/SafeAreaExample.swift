@@ -26,8 +26,6 @@ struct SafeAreaExample: View {
     }
 }
 
-struct SafeAreaExample_Previews: PreviewProvider {
-    static var previews: some View {
-        SafeAreaExample()
-    }
+#Preview {
+    SafeAreaExample()
 }

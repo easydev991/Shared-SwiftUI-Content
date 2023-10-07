@@ -35,8 +35,6 @@ struct TextEditorPlaceholderExample: View {
     }
 }
 
-struct TextEditorPlaceholderExample_Previews: PreviewProvider {
-    static var previews: some View {
-        TextEditorPlaceholderExample()
-    }
+#Preview {
+    TextEditorPlaceholderExample()
 }

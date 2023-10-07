@@ -25,8 +25,6 @@ struct TogglesListExample: View {
     }
 }
 
-struct TogglesListExample_Previews: PreviewProvider {
-    static var previews: some View {
-        TogglesListExample()
-    }
+#Preview {
+    TogglesListExample()
 }

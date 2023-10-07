@@ -22,10 +22,8 @@ struct EasyPagingView: View {
     }
 }
 
-struct EasyPagingView_Previews: PreviewProvider {
-    static var previews: some View {
-        EasyPagingView()
-    }
+#Preview {
+    EasyPagingView()
 }
 
 

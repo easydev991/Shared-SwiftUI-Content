@@ -51,8 +51,6 @@ struct ToggleView: View {
     }
 }
 
-struct BindingGetSetExample_Previews: PreviewProvider {
-    static var previews: some View {
-        BindingGetSetExample()
-    }
+#Preview {
+    BindingGetSetExample()
 }

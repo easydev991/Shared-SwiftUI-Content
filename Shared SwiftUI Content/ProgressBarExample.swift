@@ -37,8 +37,6 @@ struct ProgressBarExample: View {
     }
 }
 
-struct ProgressBarExample_Previews: PreviewProvider {
-    static var previews: some View {
-        ProgressBarExample()
-    }
+#Preview {
+    ProgressBarExample()
 }

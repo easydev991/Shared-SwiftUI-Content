@@ -23,8 +23,6 @@ struct StrokeVsStrokeBorder: View {
     }
 }
 
-struct StrokeVsStrokeBorder_Previews: PreviewProvider {
-    static var previews: some View {
-        StrokeVsStrokeBorder()
-    }
+#Preview {
+    StrokeVsStrokeBorder()
 }

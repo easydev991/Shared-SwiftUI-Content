@@ -61,9 +61,7 @@ extension PrimitiveButtonStyle where Self == MainButtonStyle {
     public static var main: Self { .init() }
 }
 
-struct ButtonStyles_Previews: PreviewProvider {
-    static var previews: some View {
-        Button("Action") {}
-            .buttonStyle(.main)
-    }
+#Preview {
+    Button("Action") {}
+        .buttonStyle(.main)
 }

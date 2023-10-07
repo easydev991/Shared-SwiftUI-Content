@@ -56,8 +56,6 @@ struct ViewWithTaskExample: View {
     }
 }
 
-struct ViewWithTaskExample_Previews: PreviewProvider {
-    static var previews: some View {
-        ViewWithTaskExample()
-    }
+#Preview {
+    ViewWithTaskExample()
 }

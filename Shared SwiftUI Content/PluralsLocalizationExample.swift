@@ -23,8 +23,6 @@ struct PluralsLocalizationExample: View {
     }
 }
 
-struct PluralsLocalizationExample_Previews: PreviewProvider {
-    static var previews: some View {
-        PluralsLocalizationExample()
-    }
+#Preview {
+    PluralsLocalizationExample()
 }

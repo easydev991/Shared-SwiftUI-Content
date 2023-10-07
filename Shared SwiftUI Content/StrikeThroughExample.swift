@@ -47,8 +47,6 @@ struct StrikeThroughExample: View {
     }
 }
 
-struct StrikeThroughExample_Previews: PreviewProvider {
-    static var previews: some View {
-        StrikeThroughExample()
-    }
+#Preview {
+    StrikeThroughExample()
 }

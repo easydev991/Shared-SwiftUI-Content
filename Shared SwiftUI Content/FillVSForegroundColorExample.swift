@@ -20,8 +20,6 @@ struct FillVSForegroundColorExample: View {
     }
 }
 
-struct FillVSForegroundColorExample_Previews: PreviewProvider {
-    static var previews: some View {
-        FillVSForegroundColorExample()
-    }
+#Preview {
+    FillVSForegroundColorExample()
 }

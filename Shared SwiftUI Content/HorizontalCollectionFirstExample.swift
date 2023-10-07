@@ -54,8 +54,6 @@ extension HorizontalCollectionFirstExample {
     }
 }
 
-struct HorizontalCollectionFirstExample_Previews: PreviewProvider {
-    static var previews: some View {
-        HorizontalCollectionFirstExample()
-    }
+#Preview {
+    HorizontalCollectionFirstExample()
 }

@@ -88,8 +88,6 @@ struct TabViewExample: View {
     }
 }
 
-struct TabViewExample_Previews: PreviewProvider {
-    static var previews: some View {
-        TabViewExample()
-    }
+#Preview {
+    TabViewExample()
 }

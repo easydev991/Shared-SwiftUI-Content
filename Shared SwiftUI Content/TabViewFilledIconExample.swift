@@ -25,8 +25,6 @@ struct TabViewFilledIconExample: View {
     }
 }
 
-struct TabViewFilledIconExample_Previews: PreviewProvider {
-    static var previews: some View {
-        TabViewFilledIconExample()
-    }
+#Preview {
+    TabViewFilledIconExample()
 }

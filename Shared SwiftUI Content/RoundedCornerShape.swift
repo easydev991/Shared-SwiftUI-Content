@@ -22,36 +22,32 @@ struct RoundedCornerShape: Shape { // 1
     }
 }
 
-#if DEBUG
-struct RoundedCornerShape_Previews: PreviewProvider {
-    static var previews: some View {
-        VStack(spacing: 20) {
-            Rectangle()
-                .foregroundColor(.blue)
-                .clipShape( // 1
-                    RoundedCornerShape( // 2
-                        radius: 50,
-                        corners: [.bottomLeft, .topLeft]
-                    )
-                )
-            Rectangle()
-                .foregroundColor(.black)
-                .clipShape( // 1
-                    RoundedCornerShape( // 2
-                        radius: 50,
-                        corners: [.topRight, .bottomRight]
-                    )
-                )
-            Rectangle()
-                .foregroundColor(.brown)
-                .clipShape( // 1
-                    RoundedCornerShape( // 2
-                        radius: 50,
-                        corners: [.bottomLeft, .bottomRight, .topLeft]
-                    )
-                )
-        }
-        .padding()
+#Preview {
+    VStack(spacing: 20) {
+        Rectangle()
+            .foregroundColor(.blue)
+            .clipShape( // 1
+                RoundedCornerShape( // 2
+                    radius: 50,
+                    corners: [.bottomLeft, .topLeft]
+                                  )
+            )
+        Rectangle()
+            .foregroundColor(.black)
+            .clipShape( // 1
+                RoundedCornerShape( // 2
+                    radius: 50,
+                    corners: [.topRight, .bottomRight]
+                                  )
+            )
+        Rectangle()
+            .foregroundColor(.brown)
+            .clipShape( // 1
+                RoundedCornerShape( // 2
+                    radius: 50,
+                    corners: [.bottomLeft, .bottomRight, .topLeft]
+                                  )
+            )
     }
+    .padding()
 }
-#endif

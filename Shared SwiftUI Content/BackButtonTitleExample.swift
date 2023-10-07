@@ -52,8 +52,6 @@ struct BackButtonTitleExample: View {
     }
 }
 
-struct BackButtonTitleExample_Previews: PreviewProvider {
-    static var previews: some View {
-        BackButtonTitleExample()
-    }
+#Preview {
+    BackButtonTitleExample()
 }

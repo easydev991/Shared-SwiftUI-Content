@@ -30,8 +30,6 @@ struct DisableUserInteractionExample: View {
     }
 }
 
-struct DisableUserInteractionExample_Previews: PreviewProvider {
-    static var previews: some View {
-        DisableUserInteractionExample()
-    }
+#Preview {
+    DisableUserInteractionExample()
 }

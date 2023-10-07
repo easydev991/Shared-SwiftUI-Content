@@ -23,8 +23,6 @@ struct PrintChangesExample: View {
     }
 }
 
-struct PrintChangesExample_Previews: PreviewProvider {
-    static var previews: some View {
-        PrintChangesExample()
-    }
+#Preview {
+    PrintChangesExample()
 }

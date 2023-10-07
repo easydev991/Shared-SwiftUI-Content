@@ -38,9 +38,7 @@ struct CustomSecureField: View {
     }
 }
 
-struct CustomSecureField_Previews: PreviewProvider {
-    static var previews: some View {
-        CustomSecureField("Password", text: .constant("password123"))
-            .padding()
-    }
+#Preview {
+    CustomSecureField("Password", text: .constant("password123"))
+        .padding()
 }

@@ -74,8 +74,6 @@ struct CancelTaskExample: View {
     }
 }
 
-struct CancelTaskExample_Previews: PreviewProvider {
-    static var previews: some View {
-        CancelTaskExample()
-    }
+#Preview {
+    CancelTaskExample()
 }

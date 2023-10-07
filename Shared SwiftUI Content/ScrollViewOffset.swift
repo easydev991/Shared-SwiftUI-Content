@@ -50,8 +50,6 @@ struct ScrollViewOffsetDemo: View {
 
 extension _ContainedScrollViewKey: PreferenceKey {} // 8
 
-struct ScrollViewOffsetDemo_Previews: PreviewProvider {
-    static var previews: some View {
-        ScrollViewOffsetDemo()
-    }
+#Preview {
+    ScrollViewOffsetDemo()
 }
