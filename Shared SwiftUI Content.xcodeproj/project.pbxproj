@@ -15,6 +15,7 @@
 		67329EAB2AD1713C0011D8D9 /* TransitionExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67329EAA2AD1713C0011D8D9 /* TransitionExample.swift */; };
 		6734D36629BB91AE0000B5B1 /* ChatGPTExperiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6734D36529BB91AE0000B5B1 /* ChatGPTExperiment.swift */; };
 		673976FE2A751C8C008028CF /* CancelTaskExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673976FD2A751C8C008028CF /* CancelTaskExample.swift */; };
+		673BBCD52AE3E85800A8A825 /* LoadingIndicatorModifierExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673BBCD42AE3E85800A8A825 /* LoadingIndicatorModifierExample.swift */; };
 		673F24E52A99E74000EBF940 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 673F24E72A99E74000EBF940 /* Localizable.stringsdict */; };
 		673F24EA2A99E87300EBF940 /* PluralsLocalizationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673F24E92A99E87300EBF940 /* PluralsLocalizationExample.swift */; };
 		67495DE02A629CC800B20672 /* HorizontalCollectionFirstExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67495DDF2A629CC800B20672 /* HorizontalCollectionFirstExample.swift */; };
@@ -52,6 +53,7 @@
 		67329EAA2AD1713C0011D8D9 /* TransitionExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionExample.swift; sourceTree = "<group>"; };
 		6734D36529BB91AE0000B5B1 /* ChatGPTExperiment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTExperiment.swift; sourceTree = "<group>"; };
 		673976FD2A751C8C008028CF /* CancelTaskExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelTaskExample.swift; sourceTree = "<group>"; };
+		673BBCD42AE3E85800A8A825 /* LoadingIndicatorModifierExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicatorModifierExample.swift; sourceTree = "<group>"; };
 		673F24E62A99E74000EBF940 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		673F24E82A99E75700EBF940 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = ru; path = ru.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		673F24E92A99E87300EBF940 /* PluralsLocalizationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluralsLocalizationExample.swift; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 				67EA14912AACC15E00CC8057 /* BackButtonTitleExample.swift */,
 				67329EAA2AD1713C0011D8D9 /* TransitionExample.swift */,
 				67EC69F92ADAA81B0087496D /* ThirdPartyDeeplinkExample.swift */,
+				673BBCD42AE3E85800A8A825 /* LoadingIndicatorModifierExample.swift */,
 			);
 			path = "Shared SwiftUI Content";
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				67D79B8E29AE5D3C00AD89FD /* TabViewExample.swift in Sources */,
 				678217932AA4807B00FA8A96 /* PrintChangesExample.swift in Sources */,
 				67B3E74729EA954900FD7B6F /* BorderVsStrokeBorder.swift in Sources */,
+				673BBCD52AE3E85800A8A825 /* LoadingIndicatorModifierExample.swift in Sources */,
 				673976FE2A751C8C008028CF /* CancelTaskExample.swift in Sources */,
 				6707921F2A0436DB00FCF275 /* VerticalPagingView.swift in Sources */,
 				673F24EA2A99E87300EBF940 /* PluralsLocalizationExample.swift in Sources */,
