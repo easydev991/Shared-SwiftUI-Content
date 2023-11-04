@@ -68,7 +68,11 @@ struct CancelTaskExample: View {
         guard let (data, _) = try? await URLSession.shared.data(for: .init(url: url)),
               let decodedModel = try? JSONDecoder().decode(PostModel.self, from: data) else { return }
         // 11 - Ждем 1 секунду для имитации долгой загрузки, иначе ProgressView может не появиться
-        try? await Task.sleep(for: .seconds(1))
+        if #available(iOS 16.0, *) {
+            try? await Task.sleep(for: .seconds(1))
+        } else {
+            try? await Task.sleep(nanoseconds: 1_000_000_000)
+        }
         // 12 - Сохраняем пост для отображения на экране
         postInfo = decodedModel
     }
