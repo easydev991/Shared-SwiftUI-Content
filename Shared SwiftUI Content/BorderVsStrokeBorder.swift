@@ -1,10 +1,3 @@
-//
-//  BorderVsStrokeBorder.swift
-//  Shared SwiftUI Content
-//
-//  Created by Олег Еременко on 15.04.2023.
-//
-
 import SwiftUI
 
 struct StrokeVsStrokeBorder: View {
