@@ -4,9 +4,11 @@ struct BackButtonTitleExample: View {
     var body: some View {
         // Работать будет только 1 вариант единовременно, для примера сейчас активен вариант 1
         NavigationView {
-            option1
+//            option1
 //            option2
 //            option3
+//            option4
+            option5
         }
     }
 
@@ -39,9 +41,36 @@ struct BackButtonTitleExample: View {
         )
         .navigationTitle("") // 3 - Если в заголовок передать пустую строку, то у кнопки не будет текста
     }
+    
+    var option4: some View {
+        NavigationLink(
+            destination: secondScreen,
+            label: {
+                Text("Вариант 4").bold()
+            }
+        )
+        .navigationTitle("Длинный заголовок не умещается в кнопку назад") // 4 - Если в заголовок передать слишком длинную строку, то у кнопки будет стандартный текст "Назад"
+    }
+    
+    var option5: some View {
+        NavigationLink(
+            destination: thirdScreen,
+            label: {
+                Text("Вариант 5").bold()
+            }
+        )
+        .navigationTitle("Обычный заголовок")
+    }
 
     var secondScreen: some View {
         Text("Второй экран").bold()
+    }
+    
+    var thirdScreen: some View {
+        Text("Следующий экран").bold()
+        // 5 - Если в заголовок следующего экрана передать слишком длинную строку, то у кнопки не будет текста
+            .navigationTitle("Слишком длинный заголовок")
+            .navigationBarTitleDisplayMode(.inline) // чтобы заголовок уместился на экране
     }
 }
 
