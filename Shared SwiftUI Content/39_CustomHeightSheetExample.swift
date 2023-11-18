@@ -2,7 +2,7 @@ import SwiftUI
 
 // MARK: - Для удобства работы с безопасной зоной
 
-private struct SafeAreaInsetsKey: EnvironmentKey {
+struct SafeAreaInsetsKey: EnvironmentKey {
     static var defaultValue: EdgeInsets {
         let keywindow = UIApplication
             .shared
@@ -15,7 +15,7 @@ private struct SafeAreaInsetsKey: EnvironmentKey {
     }
 }
 
-private extension UIEdgeInsets {
+extension UIEdgeInsets {
     var insets: EdgeInsets {
         EdgeInsets(top: top, leading: left, bottom: bottom, trailing: right)
     }
