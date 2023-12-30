@@ -46,6 +46,7 @@
 		6764F6C42A07A96E00242A76 /* 14_RoundedCornerShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6764F6C32A07A96E00242A76 /* 14_RoundedCornerShape.swift */; };
 		676762552A909E0500982F32 /* 28_TabViewFilledIconExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676762542A909E0500982F32 /* 28_TabViewFilledIconExample.swift */; };
 		677022242A21ECDA00BAB4C5 /* 16_OverlayPreferenceKeyExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677022232A21ECDA00BAB4C5 /* 16_OverlayPreferenceKeyExample.swift */; };
+		677AE90D2B40074300A2DBA7 /* 47_ShadowExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677AE90C2B40074300A2DBA7 /* 47_ShadowExample.swift */; };
 		677B0B032A503C4000562A63 /* 21_FillVSForegroundColorExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677B0B022A503C4000562A63 /* 21_FillVSForegroundColorExample.swift */; };
 		678217932AA4807B00FA8A96 /* 30_PrintChangesExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678217922AA4807B00FA8A96 /* 30_PrintChangesExample.swift */; };
 		678F21A22AFB8454009F6CFC /* 10_LazyVGridExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678F21A12AFB8454009F6CFC /* 10_LazyVGridExample.swift */; };
@@ -112,6 +113,7 @@
 		6764F6C32A07A96E00242A76 /* 14_RoundedCornerShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 14_RoundedCornerShape.swift; sourceTree = "<group>"; };
 		676762542A909E0500982F32 /* 28_TabViewFilledIconExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 28_TabViewFilledIconExample.swift; sourceTree = "<group>"; };
 		677022232A21ECDA00BAB4C5 /* 16_OverlayPreferenceKeyExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 16_OverlayPreferenceKeyExample.swift; sourceTree = "<group>"; };
+		677AE90C2B40074300A2DBA7 /* 47_ShadowExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 47_ShadowExample.swift; sourceTree = "<group>"; };
 		677B0B022A503C4000562A63 /* 21_FillVSForegroundColorExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 21_FillVSForegroundColorExample.swift; sourceTree = "<group>"; };
 		678217922AA4807B00FA8A96 /* 30_PrintChangesExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 30_PrintChangesExample.swift; sourceTree = "<group>"; };
 		678F21A12AFB8454009F6CFC /* 10_LazyVGridExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10_LazyVGridExample.swift; sourceTree = "<group>"; };
@@ -282,6 +284,7 @@
 				673E90092B1B408200E93F8C /* 43_NavigationExample_2 */,
 				674E70442B2462EB008AE9D0 /* 44_NavigationExample_3 */,
 				672835C52B2D8992005A8175 /* 45_LoggerExample.swift */,
+				677AE90C2B40074300A2DBA7 /* 47_ShadowExample.swift */,
 				67939CF2298E422900B7F059 /* Assets.xcassets */,
 				67B3E74629EA954900FD7B6F /* BorderVsStrokeBorder.swift */,
 				673F24EB2A99F0AB00EBF940 /* Localization */,
@@ -374,6 +377,7 @@
 			files = (
 				67939CFD298E425A00B7F059 /* 3_CustomSecureFieldExample.swift in Sources */,
 				67A6197A2A7E221B00301808 /* 26_TextEditorPlaceholderExample.swift in Sources */,
+				677AE90D2B40074300A2DBA7 /* 47_ShadowExample.swift in Sources */,
 				67495DE02A629CC800B20672 /* 23_HorizontalCollectionFirstExample.swift in Sources */,
 				678F21A82AFB8822009F6CFC /* 7_SafariVCExample.swift in Sources */,
 				670098412A3D95900083A058 /* 19_StrikeThroughExample.swift in Sources */,
