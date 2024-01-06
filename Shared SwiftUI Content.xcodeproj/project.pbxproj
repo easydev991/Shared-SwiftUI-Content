@@ -61,6 +61,7 @@
 		67939CFD298E425A00B7F059 /* 3_CustomSecureFieldExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67939CFC298E425A00B7F059 /* 3_CustomSecureFieldExample.swift */; };
 		67939D01298E484400B7F059 /* 4_UIKitViewDidAppear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67939D00298E484400B7F059 /* 4_UIKitViewDidAppear.swift */; };
 		679846552A5969C000EC6EBA /* 22_ProgressBarExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679846542A5969C000EC6EBA /* 22_ProgressBarExample.swift */; };
+		67A5D7182B498A9800F59B98 /* 48_BlurExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A5D7172B498A9800F59B98 /* 48_BlurExample.swift */; };
 		67A6197A2A7E221B00301808 /* 26_TextEditorPlaceholderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A619792A7E221B00301808 /* 26_TextEditorPlaceholderExample.swift */; };
 		67A91A742A362BFA005C245D /* 18_MultipleSheetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A91A732A362BFA005C245D /* 18_MultipleSheetsView.swift */; };
 		67B0164A2A6BACF000A55D40 /* 24_SwitchCaseAnimationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B016492A6BACF000A55D40 /* 24_SwitchCaseAnimationExample.swift */; };
@@ -130,6 +131,7 @@
 		67939D00298E484400B7F059 /* 4_UIKitViewDidAppear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4_UIKitViewDidAppear.swift; sourceTree = "<group>"; };
 		67939D02298E4A9100B7F059 /* Shared-SwiftUI-Content-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Shared-SwiftUI-Content-Info.plist"; sourceTree = SOURCE_ROOT; };
 		679846542A5969C000EC6EBA /* 22_ProgressBarExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 22_ProgressBarExample.swift; sourceTree = "<group>"; };
+		67A5D7172B498A9800F59B98 /* 48_BlurExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 48_BlurExample.swift; sourceTree = "<group>"; };
 		67A619792A7E221B00301808 /* 26_TextEditorPlaceholderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 26_TextEditorPlaceholderExample.swift; sourceTree = "<group>"; };
 		67A91A732A362BFA005C245D /* 18_MultipleSheetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 18_MultipleSheetsView.swift; sourceTree = "<group>"; };
 		67B016492A6BACF000A55D40 /* 24_SwitchCaseAnimationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 24_SwitchCaseAnimationExample.swift; sourceTree = "<group>"; };
@@ -285,6 +287,7 @@
 				674E70442B2462EB008AE9D0 /* 44_NavigationExample_3 */,
 				672835C52B2D8992005A8175 /* 45_LoggerExample.swift */,
 				677AE90C2B40074300A2DBA7 /* 47_ShadowExample.swift */,
+				67A5D7172B498A9800F59B98 /* 48_BlurExample.swift */,
 				67939CF2298E422900B7F059 /* Assets.xcassets */,
 				67B3E74629EA954900FD7B6F /* BorderVsStrokeBorder.swift */,
 				673F24EB2A99F0AB00EBF940 /* Localization */,
@@ -430,6 +433,7 @@
 				673E900E2B1B40FB00E93F8C /* NSRootScreen.swift in Sources */,
 				670792212A043BAB00FCF275 /* 15_ScrollViewOffset.swift in Sources */,
 				67B0164A2A6BACF000A55D40 /* 24_SwitchCaseAnimationExample.swift in Sources */,
+				67A5D7182B498A9800F59B98 /* 48_BlurExample.swift in Sources */,
 				673E90162B1B423800E93F8C /* NSErrorScreen.swift in Sources */,
 				673E900B2B1B40B400E93F8C /* NSAppViewModel.swift in Sources */,
 				674E70482B2464AB008AE9D0 /* TVHomeScreen.swift in Sources */,
