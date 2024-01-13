@@ -12,6 +12,7 @@
 		670792212A043BAB00FCF275 /* 15_ScrollViewOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670792202A043BAB00FCF275 /* 15_ScrollViewOffset.swift */; };
 		6718A61F29EC566900B24A18 /* 11_ToggleListExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6718A61E29EC566900B24A18 /* 11_ToggleListExample.swift */; };
 		671E1E032A87880F0040B818 /* 27_BindingGetSetExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671E1E022A87880F0040B818 /* 27_BindingGetSetExample.swift */; };
+		671EB8382B5285E5006D2E57 /* 49_ReadSizeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671EB8372B5285E5006D2E57 /* 49_ReadSizeExample.swift */; };
 		672835C62B2D8992005A8175 /* 45_LoggerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672835C52B2D8992005A8175 /* 45_LoggerExample.swift */; };
 		67329EAB2AD1713C0011D8D9 /* 35_TransitionExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67329EAA2AD1713C0011D8D9 /* 35_TransitionExample.swift */; };
 		673976FE2A751C8C008028CF /* 25_CancelTaskExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673976FD2A751C8C008028CF /* 25_CancelTaskExample.swift */; };
@@ -79,6 +80,7 @@
 		670792202A043BAB00FCF275 /* 15_ScrollViewOffset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15_ScrollViewOffset.swift; sourceTree = "<group>"; };
 		6718A61E29EC566900B24A18 /* 11_ToggleListExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11_ToggleListExample.swift; sourceTree = "<group>"; };
 		671E1E022A87880F0040B818 /* 27_BindingGetSetExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 27_BindingGetSetExample.swift; sourceTree = "<group>"; };
+		671EB8372B5285E5006D2E57 /* 49_ReadSizeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 49_ReadSizeExample.swift; sourceTree = "<group>"; };
 		672835C52B2D8992005A8175 /* 45_LoggerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 45_LoggerExample.swift; sourceTree = "<group>"; };
 		67329EAA2AD1713C0011D8D9 /* 35_TransitionExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 35_TransitionExample.swift; sourceTree = "<group>"; };
 		673976FD2A751C8C008028CF /* 25_CancelTaskExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 25_CancelTaskExample.swift; sourceTree = "<group>"; };
@@ -288,6 +290,7 @@
 				672835C52B2D8992005A8175 /* 45_LoggerExample.swift */,
 				677AE90C2B40074300A2DBA7 /* 47_ShadowExample.swift */,
 				67A5D7172B498A9800F59B98 /* 48_BlurExample.swift */,
+				671EB8372B5285E5006D2E57 /* 49_ReadSizeExample.swift */,
 				67939CF2298E422900B7F059 /* Assets.xcassets */,
 				67B3E74629EA954900FD7B6F /* BorderVsStrokeBorder.swift */,
 				673F24EB2A99F0AB00EBF940 /* Localization */,
@@ -379,6 +382,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67939CFD298E425A00B7F059 /* 3_CustomSecureFieldExample.swift in Sources */,
+				671EB8382B5285E5006D2E57 /* 49_ReadSizeExample.swift in Sources */,
 				67A6197A2A7E221B00301808 /* 26_TextEditorPlaceholderExample.swift in Sources */,
 				677AE90D2B40074300A2DBA7 /* 47_ShadowExample.swift in Sources */,
 				67495DE02A629CC800B20672 /* 23_HorizontalCollectionFirstExample.swift in Sources */,
