@@ -291,7 +291,7 @@ extension View {
     ///   - navigationTitle: Заголовок в навбаре. Нужно настраивать именно тут, если в онбординге есть элементы навбара
     ///   - extraFirstItem: Дополнительный первый шаг онбординга (например, приветствие) без выделенного элемента
     ///   - extraLastItem: Дополнительный последний шаг онбординга без выделенного элемента
-    ///   - maskView: Вюшка для выделения элемента онбординга, по умолчанию `RoundedRectangle(cornerRadius: 12, style: .continuous)`
+    ///   - maskView: Вюшка для выделения элемента онбординга, по умолчанию `RoundedRectangle(cornerRadius: 12)`
     ///   - didAppear: Выполняется при появлении на экране шага онбординга и возвращает этот шаг
     ///   - didTapClose: Выполняется при закрытии онбординга пользователем по нажатию на кнопку с крестиком и возвращает текущий шаг онбординга
     ///   - didTapFinish: Выполняется при завершении онбординга пользователем по нажатию на кнопку "Готово"
@@ -301,7 +301,7 @@ extension View {
         navigationTitle: String = "",
         extraFirstItem: SUIOnboarding.ItemModel.ExtraFirst? = nil,
         extraLastItem: SUIOnboarding.ItemModel.ExtraLast? = nil,
-        maskView: some View = RoundedRectangle(cornerRadius: 12, style: .continuous),
+        maskView: some View = RoundedRectangle(cornerRadius: 12),
         didAppear: @escaping (SUIOnboarding.ItemModel) -> Void = { _ in },
         didTapClose: @escaping (SUIOnboarding.ItemModel) -> Void = { _ in },
         didTapFinish: @escaping () -> Void = {}

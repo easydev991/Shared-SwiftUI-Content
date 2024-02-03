@@ -41,7 +41,7 @@ extension HorizontalCollectionFirstExample {
                 .frame(maxWidth: .infinity)
                 .padding(16)
                 .background(
-                    RoundedRectangle(cornerRadius: 16, style: .continuous)
+                    RoundedRectangle(cornerRadius: 16)
                 )
         }
     }

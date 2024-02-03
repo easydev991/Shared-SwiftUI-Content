@@ -94,7 +94,7 @@ struct CardModifier: ViewModifier {
         content
             .padding(padding)
             .background {
-                RoundedRectangle(cornerRadius: 12, style: .continuous)
+                RoundedRectangle(cornerRadius: 12)
                     .foregroundStyle(.cardBackground)
                     .shadow(
                         color: shadowModel.color,
