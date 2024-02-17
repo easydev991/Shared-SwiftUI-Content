@@ -86,6 +86,7 @@
 		67DEDCEE29FD0F9A00D46277 /* 12_SafeAreaExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DEDCED29FD0F9A00D46277 /* 12_SafeAreaExample.swift */; };
 		67EA14922AACC15E00CC8057 /* 31_BackButtonTitleExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EA14912AACC15E00CC8057 /* 31_BackButtonTitleExample.swift */; };
 		67EC69FA2ADAA81B0087496D /* 36_ThirdPartyDeeplinkExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EC69F92ADAA81B0087496D /* 36_ThirdPartyDeeplinkExample.swift */; };
+		67FCEB762B7A938C003DFDB5 /* 54_UIKitPreviewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FCEB752B7A938C003DFDB5 /* 54_UIKitPreviewExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -171,6 +172,7 @@
 		67DEDCED29FD0F9A00D46277 /* 12_SafeAreaExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 12_SafeAreaExample.swift; sourceTree = "<group>"; };
 		67EA14912AACC15E00CC8057 /* 31_BackButtonTitleExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 31_BackButtonTitleExample.swift; sourceTree = "<group>"; };
 		67EC69F92ADAA81B0087496D /* 36_ThirdPartyDeeplinkExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 36_ThirdPartyDeeplinkExample.swift; sourceTree = "<group>"; };
+		67FCEB752B7A938C003DFDB5 /* 54_UIKitPreviewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 54_UIKitPreviewExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -334,6 +336,7 @@
 				67AEE6A62B5BCF6D0011A562 /* 50_OnboardingExample */,
 				670A45F42B6E2CA400B4DDA6 /* 52_SkeletonExample */,
 				675C914F2B76912B0088B507 /* 53_HTMLExample.swift */,
+				67FCEB752B7A938C003DFDB5 /* 54_UIKitPreviewExample.swift */,
 				67939CF2298E422900B7F059 /* Assets.xcassets */,
 				67B3E74629EA954900FD7B6F /* BorderVsStrokeBorder.swift */,
 				673F24EB2A99F0AB00EBF940 /* Localization */,
@@ -520,6 +523,7 @@
 				67A5D7182B498A9800F59B98 /* 48_BlurExample.swift in Sources */,
 				673E90162B1B423800E93F8C /* NSErrorScreen.swift in Sources */,
 				673E900B2B1B40B400E93F8C /* NSAppViewModel.swift in Sources */,
+				67FCEB762B7A938C003DFDB5 /* 54_UIKitPreviewExample.swift in Sources */,
 				674E70482B2464AB008AE9D0 /* TVHomeScreen.swift in Sources */,
 				671E1E032A87880F0040B818 /* 27_BindingGetSetExample.swift in Sources */,
 				67EA14922AACC15E00CC8057 /* 31_BackButtonTitleExample.swift in Sources */,
