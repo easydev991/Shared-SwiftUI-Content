@@ -7,8 +7,8 @@ extension View {
     ///   - reloadModel: Модель с данными для повторной загрузки (сообщение и действие)
     ///   - cornerRadius: Радиус углов скелетона, по дефолту 16
     func skeleton(
-        if loading: Bool,
-        reloadModel: SkeletonModifier.Mode.ReloadModel?,
+        if loading: Bool = true,
+        reloadModel: SkeletonModifier.Mode.ReloadModel? = nil,
         cornerRadius: CGFloat = 16
     ) -> some View {
         var mode: SkeletonModifier.Mode?
