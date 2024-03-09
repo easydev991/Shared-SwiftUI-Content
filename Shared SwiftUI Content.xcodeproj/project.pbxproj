@@ -85,6 +85,7 @@
 		67CEB8D72A2B218D00F6117F /* 17_DisableUserInteractionExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CEB8D62A2B218D00F6117F /* 17_DisableUserInteractionExample.swift */; };
 		67D259E02B02A3CD00B7FE27 /* 41_ToastViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D259DF2B02A3CD00B7FE27 /* 41_ToastViewExample.swift */; };
 		67DEDCEE29FD0F9A00D46277 /* 12_SafeAreaExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DEDCED29FD0F9A00D46277 /* 12_SafeAreaExample.swift */; };
+		67E875142B9C4427009D0923 /* 57_MaskedFieldExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E875132B9C4427009D0923 /* 57_MaskedFieldExample.swift */; };
 		67EA14922AACC15E00CC8057 /* 31_BackButtonTitleExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EA14912AACC15E00CC8057 /* 31_BackButtonTitleExample.swift */; };
 		67EC69FA2ADAA81B0087496D /* 36_ThirdPartyDeeplinkExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EC69F92ADAA81B0087496D /* 36_ThirdPartyDeeplinkExample.swift */; };
 		67FCEB762B7A938C003DFDB5 /* 54_UIKitPreviewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FCEB752B7A938C003DFDB5 /* 54_UIKitPreviewExample.swift */; };
@@ -172,6 +173,7 @@
 		67CEB8D62A2B218D00F6117F /* 17_DisableUserInteractionExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 17_DisableUserInteractionExample.swift; sourceTree = "<group>"; };
 		67D259DF2B02A3CD00B7FE27 /* 41_ToastViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 41_ToastViewExample.swift; sourceTree = "<group>"; };
 		67DEDCED29FD0F9A00D46277 /* 12_SafeAreaExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 12_SafeAreaExample.swift; sourceTree = "<group>"; };
+		67E875132B9C4427009D0923 /* 57_MaskedFieldExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 57_MaskedFieldExample.swift; sourceTree = "<group>"; };
 		67EA14912AACC15E00CC8057 /* 31_BackButtonTitleExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 31_BackButtonTitleExample.swift; sourceTree = "<group>"; };
 		67EC69F92ADAA81B0087496D /* 36_ThirdPartyDeeplinkExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 36_ThirdPartyDeeplinkExample.swift; sourceTree = "<group>"; };
 		67FCEB752B7A938C003DFDB5 /* 54_UIKitPreviewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 54_UIKitPreviewExample.swift; sourceTree = "<group>"; };
@@ -340,6 +342,7 @@
 				675C914F2B76912B0088B507 /* 53_HTMLExample.swift */,
 				67FCEB752B7A938C003DFDB5 /* 54_UIKitPreviewExample.swift */,
 				67567D082B920C20009D2568 /* 56_ScrollToExample.swift */,
+				67E875132B9C4427009D0923 /* 57_MaskedFieldExample.swift */,
 				67939CF2298E422900B7F059 /* Assets.xcassets */,
 				67B3E74629EA954900FD7B6F /* BorderVsStrokeBorder.swift */,
 				673F24EB2A99F0AB00EBF940 /* Localization */,
@@ -524,6 +527,7 @@
 				670792212A043BAB00FCF275 /* 15_ScrollViewOffset.swift in Sources */,
 				67AEE6A82B5BD01E0011A562 /* OnboardingExample.swift in Sources */,
 				67B0164A2A6BACF000A55D40 /* 24_SwitchCaseAnimationExample.swift in Sources */,
+				67E875142B9C4427009D0923 /* 57_MaskedFieldExample.swift in Sources */,
 				67A5D7182B498A9800F59B98 /* 48_BlurExample.swift in Sources */,
 				673E90162B1B423800E93F8C /* NSErrorScreen.swift in Sources */,
 				673E900B2B1B40B400E93F8C /* NSAppViewModel.swift in Sources */,
