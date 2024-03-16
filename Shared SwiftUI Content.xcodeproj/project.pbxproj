@@ -82,6 +82,7 @@
 		67AEE6B92B5BD0410011A562 /* SUIOnboarding+TooltipShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AEE6B12B5BD0410011A562 /* SUIOnboarding+TooltipShape.swift */; };
 		67B0164A2A6BACF000A55D40 /* 24_SwitchCaseAnimationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B016492A6BACF000A55D40 /* 24_SwitchCaseAnimationExample.swift */; };
 		67B3E74729EA954900FD7B6F /* BorderVsStrokeBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B3E74629EA954900FD7B6F /* BorderVsStrokeBorder.swift */; };
+		67B5BF6C2BA57CFA0034D93C /* 58_BackgroundTaskExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B5BF6B2BA57CFA0034D93C /* 58_BackgroundTaskExample.swift */; };
 		67CEB8D72A2B218D00F6117F /* 17_DisableUserInteractionExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CEB8D62A2B218D00F6117F /* 17_DisableUserInteractionExample.swift */; };
 		67D259E02B02A3CD00B7FE27 /* 41_ToastViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D259DF2B02A3CD00B7FE27 /* 41_ToastViewExample.swift */; };
 		67DEDCEE29FD0F9A00D46277 /* 12_SafeAreaExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DEDCED29FD0F9A00D46277 /* 12_SafeAreaExample.swift */; };
@@ -170,6 +171,7 @@
 		67AEE6B12B5BD0410011A562 /* SUIOnboarding+TooltipShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SUIOnboarding+TooltipShape.swift"; sourceTree = "<group>"; };
 		67B016492A6BACF000A55D40 /* 24_SwitchCaseAnimationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 24_SwitchCaseAnimationExample.swift; sourceTree = "<group>"; };
 		67B3E74629EA954900FD7B6F /* BorderVsStrokeBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderVsStrokeBorder.swift; sourceTree = "<group>"; };
+		67B5BF6B2BA57CFA0034D93C /* 58_BackgroundTaskExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 58_BackgroundTaskExample.swift; sourceTree = "<group>"; };
 		67CEB8D62A2B218D00F6117F /* 17_DisableUserInteractionExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 17_DisableUserInteractionExample.swift; sourceTree = "<group>"; };
 		67D259DF2B02A3CD00B7FE27 /* 41_ToastViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 41_ToastViewExample.swift; sourceTree = "<group>"; };
 		67DEDCED29FD0F9A00D46277 /* 12_SafeAreaExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 12_SafeAreaExample.swift; sourceTree = "<group>"; };
@@ -343,6 +345,7 @@
 				67FCEB752B7A938C003DFDB5 /* 54_UIKitPreviewExample.swift */,
 				67567D082B920C20009D2568 /* 56_ScrollToExample.swift */,
 				67E875132B9C4427009D0923 /* 57_MaskedFieldExample.swift */,
+				67B5BF6B2BA57CFA0034D93C /* 58_BackgroundTaskExample.swift */,
 				67939CF2298E422900B7F059 /* Assets.xcassets */,
 				67B3E74629EA954900FD7B6F /* BorderVsStrokeBorder.swift */,
 				673F24EB2A99F0AB00EBF940 /* Localization */,
@@ -461,6 +464,7 @@
 				67A6197A2A7E221B00301808 /* 26_TextEditorPlaceholderExample.swift in Sources */,
 				677AE90D2B40074300A2DBA7 /* 47_ShadowExample.swift in Sources */,
 				67495DE02A629CC800B20672 /* 23_HorizontalCollectionFirstExample.swift in Sources */,
+				67B5BF6C2BA57CFA0034D93C /* 58_BackgroundTaskExample.swift in Sources */,
 				678F21A82AFB8822009F6CFC /* 7_SafariVCExample.swift in Sources */,
 				670098412A3D95900083A058 /* 19_StrikeThroughExample.swift in Sources */,
 				674DF04B2B1202CF00828016 /* Binding+.swift in Sources */,
