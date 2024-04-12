@@ -91,6 +91,7 @@
 		67E875142B9C4427009D0923 /* 57_MaskedFieldExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E875132B9C4427009D0923 /* 57_MaskedFieldExample.swift */; };
 		67EA14922AACC15E00CC8057 /* 31_BackButtonTitleExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EA14912AACC15E00CC8057 /* 31_BackButtonTitleExample.swift */; };
 		67EC69FA2ADAA81B0087496D /* 36_ThirdPartyDeeplinkExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EC69F92ADAA81B0087496D /* 36_ThirdPartyDeeplinkExample.swift */; };
+		67ECEA3E2BC9B73C0077917E /* 62_DrawingAndCompositingGroupExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67ECEA3D2BC9B73C0077917E /* 62_DrawingAndCompositingGroupExample.swift */; };
 		67FCEB762B7A938C003DFDB5 /* 54_UIKitPreviewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FCEB752B7A938C003DFDB5 /* 54_UIKitPreviewExample.swift */; };
 /* End PBXBuildFile section */
 
@@ -182,6 +183,7 @@
 		67E875132B9C4427009D0923 /* 57_MaskedFieldExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 57_MaskedFieldExample.swift; sourceTree = "<group>"; };
 		67EA14912AACC15E00CC8057 /* 31_BackButtonTitleExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 31_BackButtonTitleExample.swift; sourceTree = "<group>"; };
 		67EC69F92ADAA81B0087496D /* 36_ThirdPartyDeeplinkExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 36_ThirdPartyDeeplinkExample.swift; sourceTree = "<group>"; };
+		67ECEA3D2BC9B73C0077917E /* 62_DrawingAndCompositingGroupExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 62_DrawingAndCompositingGroupExample.swift; sourceTree = "<group>"; };
 		67FCEB752B7A938C003DFDB5 /* 54_UIKitPreviewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 54_UIKitPreviewExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -352,6 +354,7 @@
 				67B5BF6B2BA57CFA0034D93C /* 58_BackgroundTaskExample.swift */,
 				67DADFC82BB7F1FB009E3F21 /* 60_EquatableExample.swift */,
 				6755D2E22BC067C2002C00F5 /* 61_MatchedGeometryEffectExample.swift */,
+				67ECEA3D2BC9B73C0077917E /* 62_DrawingAndCompositingGroupExample.swift */,
 				67939CF2298E422900B7F059 /* Assets.xcassets */,
 				67B3E74629EA954900FD7B6F /* BorderVsStrokeBorder.swift */,
 				673F24EB2A99F0AB00EBF940 /* Localization */,
@@ -480,6 +483,7 @@
 				674DF0452B11F8A800828016 /* NVAppViewModel.swift in Sources */,
 				67939D01298E484400B7F059 /* 4_UIKitViewDidAppear.swift in Sources */,
 				670A46002B6E37FD00B4DDA6 /* SkeletonExample.swift in Sources */,
+				67ECEA3E2BC9B73C0077917E /* 62_DrawingAndCompositingGroupExample.swift in Sources */,
 				674DF0472B11FAAC00828016 /* NVAuthorizeScreen.swift in Sources */,
 				674DF0522B1208FE00828016 /* NVErrorScreen.swift in Sources */,
 				67CEB8D72A2B218D00F6117F /* 17_DisableUserInteractionExample.swift in Sources */,
