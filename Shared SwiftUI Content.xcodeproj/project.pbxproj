@@ -89,6 +89,7 @@
 		67DADFC92BB7F1FB009E3F21 /* 60_EquatableExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DADFC82BB7F1FB009E3F21 /* 60_EquatableExample.swift */; };
 		67DEDCEE29FD0F9A00D46277 /* 12_SafeAreaExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DEDCED29FD0F9A00D46277 /* 12_SafeAreaExample.swift */; };
 		67E5BD4D2BEBE0E70088404B /* 63_ScrollTargetExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E5BD4C2BEBE0E70088404B /* 63_ScrollTargetExample.swift */; };
+		67E5BD4F2BEBE1AE0088404B /* 65_ConditionalModifierExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E5BD4E2BEBE1AE0088404B /* 65_ConditionalModifierExample.swift */; };
 		67E875142B9C4427009D0923 /* 57_MaskedFieldExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E875132B9C4427009D0923 /* 57_MaskedFieldExample.swift */; };
 		67EA14922AACC15E00CC8057 /* 31_BackButtonTitleExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EA14912AACC15E00CC8057 /* 31_BackButtonTitleExample.swift */; };
 		67EC69FA2ADAA81B0087496D /* 36_ThirdPartyDeeplinkExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EC69F92ADAA81B0087496D /* 36_ThirdPartyDeeplinkExample.swift */; };
@@ -182,6 +183,7 @@
 		67DADFC82BB7F1FB009E3F21 /* 60_EquatableExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 60_EquatableExample.swift; sourceTree = "<group>"; };
 		67DEDCED29FD0F9A00D46277 /* 12_SafeAreaExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 12_SafeAreaExample.swift; sourceTree = "<group>"; };
 		67E5BD4C2BEBE0E70088404B /* 63_ScrollTargetExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 63_ScrollTargetExample.swift; sourceTree = "<group>"; };
+		67E5BD4E2BEBE1AE0088404B /* 65_ConditionalModifierExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 65_ConditionalModifierExample.swift; sourceTree = "<group>"; };
 		67E875132B9C4427009D0923 /* 57_MaskedFieldExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 57_MaskedFieldExample.swift; sourceTree = "<group>"; };
 		67EA14912AACC15E00CC8057 /* 31_BackButtonTitleExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 31_BackButtonTitleExample.swift; sourceTree = "<group>"; };
 		67EC69F92ADAA81B0087496D /* 36_ThirdPartyDeeplinkExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 36_ThirdPartyDeeplinkExample.swift; sourceTree = "<group>"; };
@@ -358,6 +360,7 @@
 				6755D2E22BC067C2002C00F5 /* 61_MatchedGeometryEffectExample.swift */,
 				67ECEA3D2BC9B73C0077917E /* 62_DrawingAndCompositingGroupExample.swift */,
 				67E5BD4C2BEBE0E70088404B /* 63_ScrollTargetExample.swift */,
+				67E5BD4E2BEBE1AE0088404B /* 65_ConditionalModifierExample.swift */,
 				67939CF2298E422900B7F059 /* Assets.xcassets */,
 				67B3E74629EA954900FD7B6F /* BorderVsStrokeBorder.swift */,
 				673F24EB2A99F0AB00EBF940 /* Localization */,
@@ -508,6 +511,7 @@
 				6718A61F29EC566900B24A18 /* 11_ToggleListExample.swift in Sources */,
 				67537DC12A46C5C300BBF348 /* 1_UIKitTextViewExample.swift in Sources */,
 				67AEE6B52B5BD0410011A562 /* SUIOnboarding+TooltipModel.swift in Sources */,
+				67E5BD4F2BEBE1AE0088404B /* 65_ConditionalModifierExample.swift in Sources */,
 				67DEDCEE29FD0F9A00D46277 /* 12_SafeAreaExample.swift in Sources */,
 				673E90182B1B428C00E93F8C /* NSBookmarksScreen.swift in Sources */,
 				6764F6C42A07A96E00242A76 /* 14_RoundedCornerShape.swift in Sources */,
