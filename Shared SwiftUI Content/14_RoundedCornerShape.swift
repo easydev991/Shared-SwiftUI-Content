@@ -23,7 +23,7 @@ struct RoundedCornerShape: Shape { // 1
                 RoundedCornerShape( // 2
                     radius: 50,
                     corners: [.bottomLeft, .topLeft]
-                                  )
+                )
             )
         Rectangle()
             .foregroundColor(.black)
@@ -31,7 +31,7 @@ struct RoundedCornerShape: Shape { // 1
                 RoundedCornerShape( // 2
                     radius: 50,
                     corners: [.topRight, .bottomRight]
-                                  )
+                )
             )
         Rectangle()
             .foregroundColor(.brown)
@@ -39,7 +39,7 @@ struct RoundedCornerShape: Shape { // 1
                 RoundedCornerShape( // 2
                     radius: 50,
                     corners: [.bottomLeft, .bottomRight, .topLeft]
-                                  )
+                )
             )
     }
     .padding()
