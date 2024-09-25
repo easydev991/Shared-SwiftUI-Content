@@ -28,6 +28,19 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
       shouldAutocreateTestPlan = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6720DDF52C5E5AAE00EEB450"
+               BuildableName = "Shared SwiftUI ContentTests.xctest"
+               BlueprintName = "Shared SwiftUI ContentTests"
+               ReferencedContainer = "container:Shared SwiftUI Content.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
