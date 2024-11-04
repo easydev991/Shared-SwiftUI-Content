@@ -1,14 +1,7 @@
-//
-//  Shared_SwiftUI_ContentTests.swift
-//  Shared SwiftUI ContentTests
-//
-//  Created by Oleg991 on 03.08.2024.
-//
-
 import XCTest
 @testable import Shared_SwiftUI_Content
 
-final class ChipCollectionModelTests: XCTestCase {
+final class ChipCollectionModelXCTests: XCTestCase {
     
     func testEmptyCollection() {
         let model = ChipCollectionModel(items: [])
