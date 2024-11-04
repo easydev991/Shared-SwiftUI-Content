@@ -1,49 +1,5 @@
 import SwiftUI
 
-/// Модель для чипсины в коллекции
-struct ChipItem: Identifiable, Hashable {
-    let id: Int
-    let description: String
-}
-
-extension [ChipItem] {
-    static func makeDemoList(count: Int) -> [ChipItem] {
-        (0..<count).map { i in
-            return .init(
-                id: i + 1,
-                description: "Тут чипс № \(i + 1)"
-            )
-        }
-    }
-}
-
-/// Модель для коллекции чипсов, создает словарь
-/// для отображения коллекции в одну или две строки
-struct ChipCollectionModel {
-    /// Итоговый словарь, где ключ - порядковый номер строки, а значение - чипсы для этой строки
-    let itemsDict: [Int: [ChipItem]]
-    /// Количество строк в коллекции
-    var rows: Int { itemsDict.keys.count }
-    
-    init(items: [ChipItem]) {
-        guard !items.isEmpty else {
-            itemsDict = [:]
-            return
-        }
-        if items.count < 5 {
-            itemsDict = [1: items]
-        } else {
-            let count = items.count
-            let isEven = count % 2 == 0
-            let midIndex = isEven ? count / 2 : (count + 1) / 2
-            itemsDict = [
-                1: Array(items[..<midIndex]),
-                2: Array(items[midIndex...])
-            ]
-        }
-    }
-}
-
 struct ChipsCollectionView: View {
     private let model: ChipCollectionModel
     @Binding private var selection: Int?
@@ -77,16 +33,17 @@ struct ChipsCollectionView: View {
     
     private func makeChipView(for item: ChipItem) -> some View {
         Text(item.description)
-            .foregroundStyle(.primary)
+            .foregroundColor(.primary)
             .padding(8)
-            .background {
-                RoundedRectangle(cornerRadius: 20)
-                    .fill(.secondary.opacity(0.3))
-            }
+            .background(chipBackgroundColor)
+    }
+    
+    private var chipBackgroundColor: some View {
+        Color.secondary.opacity(0.3)
+            .clipShape(.rect(cornerRadius: 20))
     }
 }
 
-#if DEBUG
 #Preview("15 чипсов") {
     ChipsCollectionView(items: .makeDemoList(count: 15), selection: .constant(nil))
 }
@@ -98,4 +55,3 @@ struct ChipsCollectionView: View {
 #Preview("4 чипса") {
     ChipsCollectionView(items: .makeDemoList(count: 4), selection: .constant(nil))
 }
-#endif

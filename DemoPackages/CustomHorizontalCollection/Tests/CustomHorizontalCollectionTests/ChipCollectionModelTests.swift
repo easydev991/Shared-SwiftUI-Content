@@ -1,15 +1,16 @@
-import XCTest
-@testable import Shared_SwiftUI_Content
+import Testing
+@testable import CustomHorizontalCollection
 
-final class ChipCollectionModelXCTests: XCTestCase {
-    
-    func testEmptyCollection() {
+struct ChipCollectionModelTests {
+    @Test
+    func emptyCollection() {
         let model = ChipCollectionModel(items: [])
-        XCTAssertEqual(model.rows, 0)
-        XCTAssertTrue(model.itemsDict.isEmpty)
+        #expect(model.rows == 0)
+        #expect(model.itemsDict.isEmpty)
     }
     
-    func testSingleRowCollection() {
+    @Test
+    func singleRowCollection() {
         let items = [
             ChipItem(id: 1, description: "Chips A"),
             ChipItem(id: 2, description: "Chips B"),
@@ -19,13 +20,14 @@ final class ChipCollectionModelXCTests: XCTestCase {
         
         let model = ChipCollectionModel(items: items)
         
-        XCTAssertEqual(model.rows, 1)
-        XCTAssertEqual(model.itemsDict.count, 1)
-        XCTAssertEqual(model.itemsDict[1]?.count, 4)
-        XCTAssertEqual(model.itemsDict[1], items)
+        #expect(model.rows == 1)
+        #expect(model.itemsDict.count == 1)
+        #expect(model.itemsDict[1]?.count == 4)
+        #expect(model.itemsDict[1] == items)
     }
     
-    func testTwoRowCollectionEvenCount() {
+    @Test
+    func twoRowCollectionEvenCount() {
         let items = [
             ChipItem(id: 1, description: "Chips A"),
             ChipItem(id: 2, description: "Chips B"),
@@ -37,15 +39,16 @@ final class ChipCollectionModelXCTests: XCTestCase {
         
         let model = ChipCollectionModel(items: items)
         
-        XCTAssertEqual(model.rows, 2)
-        XCTAssertEqual(model.itemsDict.count, 2)
-        XCTAssertEqual(model.itemsDict[1]?.count, 3)
-        XCTAssertEqual(model.itemsDict[2]?.count, 3)
-        XCTAssertEqual(model.itemsDict[1], Array(items[0...2]))
-        XCTAssertEqual(model.itemsDict[2], Array(items[3...5]))
+        #expect(model.rows == 2)
+        #expect(model.itemsDict.count == 2)
+        #expect(model.itemsDict[1]?.count == 3)
+        #expect(model.itemsDict[2]?.count == 3)
+        #expect(model.itemsDict[1] == Array(items[0...2]))
+        #expect(model.itemsDict[2] == Array(items[3...5]))
     }
     
-    func testTwoRowCollectionOddCount() {
+    @Test
+    func twoRowCollectionOddCount() {
         let items = [
             ChipItem(id: 1, description: "Chips A"),
             ChipItem(id: 2, description: "Chips B"),
@@ -56,11 +59,11 @@ final class ChipCollectionModelXCTests: XCTestCase {
         
         let model = ChipCollectionModel(items: items)
         
-        XCTAssertEqual(model.rows, 2)
-        XCTAssertEqual(model.itemsDict.count, 2)
-        XCTAssertEqual(model.itemsDict[1]?.count, 3)
-        XCTAssertEqual(model.itemsDict[2]?.count, 2)
-        XCTAssertEqual(model.itemsDict[1], Array(items[0...2]))
-        XCTAssertEqual(model.itemsDict[2], Array(items[3...4]))
+        #expect(model.rows == 2)
+        #expect(model.itemsDict.count == 2)
+        #expect(model.itemsDict[1]?.count == 3)
+        #expect(model.itemsDict[2]?.count == 2)
+        #expect(model.itemsDict[1] == Array(items[0...2]))
+        #expect(model.itemsDict[2] == Array(items[3...4]))
     }
 }
