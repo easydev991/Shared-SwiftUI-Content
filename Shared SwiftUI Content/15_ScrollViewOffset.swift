@@ -41,6 +41,6 @@ struct ScrollViewOffsetDemo: View {
     }
 }
 
-extension _ContainedScrollViewKey: PreferenceKey {} // 8
+extension _ContainedScrollViewKey: @retroactive PreferenceKey {} // 8
 
 #Preview { ScrollViewOffsetDemo() }

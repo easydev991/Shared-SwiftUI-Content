@@ -5,7 +5,7 @@ extension SUIOnboarding {
     struct MaskFramePreferenceKey: PreferenceKey {
         typealias Value = [ItemModel: CGRect]
         
-        static var defaultValue: Value = [:]
+        static let defaultValue: Value = [:]
         
         static func reduce(value: inout Value, nextValue: () -> Value) {
             value.merge(nextValue(), uniquingKeysWith: { $1 })

@@ -16,6 +16,16 @@
 		67939CEB298E422700B7F059 /* Shared SwiftUI Content.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shared SwiftUI Content.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		67128C812CE87EA700FBD95B /* Exceptions for "Shared SwiftUI Content" folder in "Shared SwiftUI Content" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Shared-SwiftUI-Content-Info.plist",
+			);
+			target = 67939CEA298E422700B7F059 /* Shared SwiftUI Content */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		67128B9B2CE87DB400FBD95B /* DemoPackages */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -24,6 +34,9 @@
 		};
 		67EFF66E2CE7998700B0F222 /* Shared SwiftUI Content */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				67128C812CE87EA700FBD95B /* Exceptions for "Shared SwiftUI Content" folder in "Shared SwiftUI Content" target */,
+			);
 			path = "Shared SwiftUI Content";
 			sourceTree = "<group>";
 		};
@@ -91,7 +104,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 1610;
 				TargetAttributes = {
 					67939CEA298E422700B7F059 = {
 						CreatedOnToolsVersion = 14.2;

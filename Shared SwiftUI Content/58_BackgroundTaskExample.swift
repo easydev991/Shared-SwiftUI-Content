@@ -1,31 +1,52 @@
 import SwiftUI
 
-struct BackgroundTaskExample: View {
-    var body: some View {
-        VStack {
-            Text("Дождитесь СМС со ссылкой для авторизации")
-            Spacer()
+@MainActor
+final class BackgroundTaskViewModel: ObservableObject {
+    @Published private(set) var text = "Дождитесь СМС со ссылкой для авторизации"
+    private var taskIdentifier: UIBackgroundTaskIdentifier?
+    
+    func requestSMSForAuth() async {
+        do {
+            try await requestSMS()
+            text = "Авторизация успешна"
+        } catch {
+            text = "Ошибка авторизации: \(error.localizedDescription)"
         }
-        .task { await requestSMS() }
+        
+    }
+    
+    private func requestSMS() async throws {
+        // Создаем таск для фоновой работы, чтобы завершить его
+        // после успешной авторизации
+        let taskId = startBackgroundTask()
+        // Имитируем выполнение запроса
+        try await Task.sleep(for: .seconds(5))
+        // После завершения авторизации завершаем таск для фоновой работы
+        UIApplication.shared.endBackgroundTask(taskId)
     }
     
     /// Создает фоновый таск и возвращает его идентификатор
     private func startBackgroundTask() -> UIBackgroundTaskIdentifier {
-        var identifier: UIBackgroundTaskIdentifier?
-        identifier = UIApplication.shared.beginBackgroundTask {
+        taskIdentifier = UIApplication.shared.beginBackgroundTask { [weak self] in
             // Блок, выполняющийся при завершении таска, нужно вызвать `endBackgroundTask`
-            UIApplication.shared.endBackgroundTask(identifier ?? .invalid)
+            UIApplication.shared.endBackgroundTask(self?.taskIdentifier ?? .invalid)
         }
-        return identifier ?? .invalid
+        return taskIdentifier ?? .invalid
     }
+}
+
+struct BackgroundTaskExample: View {
+    @StateObject private var viewModel = BackgroundTaskViewModel()
     
-    private func requestSMS() async {
-        // Создаем таск для фоновой работы, чтобы завершить его
-        // после успешной авторизации
-        let taskId = startBackgroundTask()
-        // Выполняем запрос
-        // await myService.requestSMSForAuth()
-        // После завершения авторизации завершаем таск для фоновой работы
-        await UIApplication.shared.endBackgroundTask(taskId)
+    var body: some View {
+        VStack {
+            Text(viewModel.text)
+            Spacer()
+        }
+        .task { await viewModel.requestSMSForAuth() }
     }
+}
+
+#Preview {
+    BackgroundTaskExample()
 }

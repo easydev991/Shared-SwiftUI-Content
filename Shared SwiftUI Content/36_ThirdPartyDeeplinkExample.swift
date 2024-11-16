@@ -7,7 +7,7 @@ struct ThirdPartyDeeplinkExample: View {
         let url: URL
 
         /// Проверка на возможность открытия ссылки
-        var canOpenURL: Bool {
+        @MainActor var canOpenURL: Bool {
             UIApplication.shared.canOpenURL(url)
         }
     }

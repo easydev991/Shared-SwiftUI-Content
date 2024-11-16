@@ -2,7 +2,7 @@ import Foundation
 
 extension SUIOnboarding {
     /// Модель элемента экрана для онбординга
-    public struct ItemModel: Hashable {
+    public struct ItemModel: Hashable, Sendable {
         /// Используется в качестве ключа в словаре со всеми элементами
         public let id: String
         let step: Step

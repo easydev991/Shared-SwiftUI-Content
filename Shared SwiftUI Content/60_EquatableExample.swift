@@ -35,7 +35,7 @@ enum EquatableExample {
             )
         }
         
-        static func == (lhs: BrokenView1, rhs: BrokenView1) -> Bool {
+        nonisolated static func == (lhs: BrokenView1, rhs: BrokenView1) -> Bool {
             lhs.number.isOdd == rhs.number.isOdd
         }
     }
@@ -52,7 +52,7 @@ enum EquatableExample {
             )
         }
         
-        static func == (lhs: BrokenView2, rhs: BrokenView2) -> Bool {
+        nonisolated static func == (lhs: BrokenView2, rhs: BrokenView2) -> Bool {
             lhs.number.isOdd == rhs.number.isOdd
         }
     }
@@ -71,7 +71,7 @@ enum EquatableExample {
             .rotationEffect(.degrees(test ? 0 : 360))
         }
         
-        static func == (lhs: HardView, rhs: HardView) -> Bool {
+        nonisolated static func == (lhs: HardView, rhs: HardView) -> Bool {
             lhs.number.isOdd == rhs.number.isOdd
 //            lhs.isOdd == rhs.isOdd // <- тоже рабочий вариант
         }

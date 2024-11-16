@@ -2,7 +2,7 @@ import SwiftUI
 
 // 1 -  Используем для передачи информации о вьюхе наверх по иерархии вьюшек
 struct SizePreferenceKey: PreferenceKey {
-  static var defaultValue: CGSize = .zero
+  static let defaultValue: CGSize = .zero
   static func reduce(value: inout CGSize, nextValue: () -> CGSize) {}
 }
 

@@ -2,43 +2,38 @@ import SwiftUI
 
 // MARK: - Для удобства работы с безопасной зоной
 
-struct SafeAreaInsetsKey: EnvironmentKey {
-    static var defaultValue: EdgeInsets {
-        let keywindow = UIApplication
-            .shared
-            .connectedScenes
-            .compactMap { $0 as? UIWindowScene }
-            .flatMap(\.windows)
-            .last(where: \.isKeyWindow)
-        let safeAreaInsets = keywindow?.safeAreaInsets ?? .zero
-        return safeAreaInsets.insets
-    }
+struct SafeAreaInsetsKey: PreferenceKey {
+    static let defaultValue: EdgeInsets = .init()
+    static func reduce(value: inout EdgeInsets, nextValue: () -> EdgeInsets) {}
 }
 
-extension UIEdgeInsets {
-    var insets: EdgeInsets {
-        EdgeInsets(top: top, leading: left, bottom: bottom, trailing: right)
-    }
-}
-
-extension EnvironmentValues {
-    var safeAreaInsets: EdgeInsets {
-        self[SafeAreaInsetsKey.self]
+extension View {
+    /// Возвращает безопасную зону в замыкании
+    func readSafeAreaInsets(onChange: @escaping (EdgeInsets) -> Void) -> some View {
+        background(
+            GeometryReader { geometry in
+                Color.clear
+                    .preference(key: SafeAreaInsetsKey.self, value: geometry.safeAreaInsets)
+            }
+        )
+        .onPreferenceChange(SafeAreaInsetsKey.self, perform: onChange)
     }
 }
 
 // MARK: - Обертка для модальных окон
 
 struct ModalPageWrapper<Content: View>: View {
-    @Environment(\.safeAreaInsets) private var safeAreaInsets
-    @ViewBuilder let content: () -> Content
+    private let content: Content
+    
+    init(@ViewBuilder content: () -> Content) {
+        self.content = content()
+    }
 
     var body: some View {
         VStack(spacing: 0) {
             pinView
-            content()
+            content
         }
-        .padding(.bottom, safeAreaInsets.bottom)
         .background(
             Rectangle().fill(.white)
                 .clipShape(
@@ -58,6 +53,7 @@ struct ModalPageWrapper<Content: View>: View {
 // MARK: - Модификатор для кастомных модальных окон
 
 struct CustomHeightSheetModifier<SheetContent: View>: ViewModifier {
+    @State private var bottomPadding: CGFloat?
     @State private var yOffset: CGFloat = 0 // для управления свайпом
     @Binding var isPresented: Bool
     @ViewBuilder let sheetContent: SheetContent
@@ -78,6 +74,9 @@ struct CustomHeightSheetModifier<SheetContent: View>: ViewModifier {
             }
         }
         .ignoresSafeArea(edges: .bottom)
+        .readSafeAreaInsets {
+            bottomPadding = $0.bottom
+        }
     }
 
     private var backgroundColor: some View {
@@ -94,36 +93,39 @@ struct CustomHeightSheetModifier<SheetContent: View>: ViewModifier {
     }
 
     private var sheetContentView: some View {
-        ModalPageWrapper { sheetContent }
-            .zIndex(2)
-            .transition( // настраиваем способ показа/скрытия модалки
-                .asymmetric(
-                    insertion: .move(edge: .bottom),
-                    removal: .move(edge: .bottom)
-                )
+        ModalPageWrapper {
+            sheetContent
+                .padding(.bottom, bottomPadding)
+        }
+        .zIndex(2)
+        .transition( // настраиваем способ показа/скрытия модалки
+            .asymmetric(
+                insertion: .move(edge: .bottom),
+                removal: .move(edge: .bottom)
             )
-            .offset(y: yOffset)
-            .animation(.easeInOut(duration: 0.15), value: yOffset)
-            .gesture(
-                DragGesture()
-                    .onChanged { value in
-                        let height = value.translation.height
-                        // не даем увеличивать модалку выше, чем нужно
-                        guard height > 0 else { return }
-                        yOffset = height
+        )
+        .offset(y: yOffset)
+        .animation(.easeInOut(duration: 0.15), value: yOffset)
+        .gesture(
+            DragGesture()
+                .onChanged { value in
+                    let height = value.translation.height
+                    // не даем увеличивать модалку выше, чем нужно
+                    guard height > 0 else { return }
+                    yOffset = height
+                }
+                .onEnded { value in
+                    if value.translation.height > 50 {
+                        // закрываем модалку
+                        isPresented = false
+                    } else {
+                        // сбрасываем оффсет, чтобы модалка вернулась к исходной высоте
+                        yOffset = 0
                     }
-                    .onEnded { value in
-                        if value.translation.height > 50 {
-                            // закрываем модалку
-                            isPresented = false
-                        } else {
-                            // сбрасываем оффсет, чтобы модалка вернулась к исходной высоте
-                            yOffset = 0
-                        }
-                    }
-            )
-            // обязательно сбрасываем оффсет при закрытии модалки
-            .onDisappear { yOffset = 0 }
+                }
+        )
+        // обязательно сбрасываем оффсет при закрытии модалки
+        .onDisappear { yOffset = 0 }
     }
 }
 

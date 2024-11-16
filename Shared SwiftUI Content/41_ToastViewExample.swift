@@ -2,12 +2,25 @@ import SwiftUI
 
 // MARK: 1 - Для включения тоста с любого экрана
 
-struct ToastEnvironmentKey: EnvironmentKey {
-    static var defaultValue: (_ model: ToastViewModifier.Model) -> Void = { _ in }
+struct ToastModel: Equatable, Sendable {
+    let title: String
+    var subtitle: String?
+    var duration: Duration = .short
+    
+    enum Duration: Double {
+        case short = 1.5
+        case medium = 3
+        case long = 4.5
+    }
+}
+
+@MainActor
+struct ToastEnvironmentKey: @preconcurrency EnvironmentKey {
+    static let defaultValue: (_ model: ToastModel) -> Void = { _ in }
 }
 
 extension EnvironmentValues {
-    var toastInfo: (_ model: ToastViewModifier.Model) -> Void {
+    var toastInfo: (_ model: ToastModel) -> Void {
         get { self[ToastEnvironmentKey.self] }
         set { self[ToastEnvironmentKey.self] = newValue }
     }
@@ -19,19 +32,8 @@ extension EnvironmentValues {
 ///
 /// Нужно применять поверх `NavigationView` / `NavigationStack`
 struct ToastViewModifier: ViewModifier {
-    struct Model: Equatable {
-        let title: String
-        var subtitle: String?
-        var duration: Duration = .short
-    }
-    enum Duration: Double {
-        case short = 1.5
-        case medium = 3
-        case long = 4.5
-    }
-    @Environment(\.safeAreaInsets) private var safeAreaInsets
-    @Binding private var model: Model?
-    @State private var timer: Timer?
+    @State private var topPadding: CGFloat?
+    @Binding private var model: ToastModel?
     
     /// Инициализатор для управления через `isPresented`
     /// - Parameters:
@@ -43,12 +45,12 @@ struct ToastViewModifier: ViewModifier {
         isPresented: Binding<Bool>,
         title: String,
         subtitle: String? = nil,
-        duration: Duration = .short
+        duration: ToastModel.Duration = .short
     ) {
         self._model = .init(
             get: {
                 isPresented.wrappedValue
-                ? Model(title: title, subtitle: subtitle, duration: duration)
+                ? ToastModel(title: title, subtitle: subtitle, duration: duration)
                 : nil
             },
             set: { newValue in
@@ -61,7 +63,7 @@ struct ToastViewModifier: ViewModifier {
     
     /// Инициализатор для управления через модель
     /// - Parameter model: Модель для тоста
-    init(model: Binding<Model?>) {
+    init(model: Binding<ToastModel?>) {
         self._model = .init(
             get: { model.wrappedValue == nil ? nil : model.wrappedValue },
             set: { newValue in
@@ -88,27 +90,19 @@ struct ToastViewModifier: ViewModifier {
                     }
                 }
                 .foregroundStyle(.white)
-                .padding(.top, safeAreaInsets.bottom > 0 ? 44 : 0) // паддинг для девайсов с чёлкой
                 .padding()
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .background(.red)
                 .onTapGesture { self.model = nil } // скрываем тост при нажатии на него
                 .transition(.move(edge: .top).combined(with: .opacity))
-                .onAppear {
-                    // при появлении тоста запускаем таймер
-                    // по окончании таймера закрываем тост
-                    timer = Timer.scheduledTimer(
-                        withTimeInterval: model.duration.rawValue,
-                        repeats: false
-                    ) { _ in self.model = nil }
-                }
-                .onDisappear {
-                    timer?.invalidate()
-                    timer = nil
+                .task {
+                    // при появлении тоста запускаем ожидание,
+                    // по окончании ожидания закрываем тост
+                    try? await Task.sleep(for: .seconds(model.duration.rawValue))
+                    self.model = nil
                 }
             }
         }
-        .ignoresSafeArea()
     }
 }
 
@@ -120,7 +114,7 @@ struct ToastViewModifier: ViewModifier {
 /*
  @main
  struct MyApp: App {
-     @State private var toastModel: ToastViewModifier.Model?
+     @State private var toastModel: ToastModel?
      
      var body: some Scene {
          WindowGroup {
@@ -138,7 +132,7 @@ extension View {
         isPresented: Binding<Bool>,
         title: String,
         subtitle: String? = nil,
-        duration: ToastViewModifier.Duration = .short
+        duration: ToastModel.Duration = .short
     ) -> some View {
         modifier(
             ToastViewModifier(
@@ -150,41 +144,79 @@ extension View {
         )
     }
     
-    func toast(item: Binding<ToastViewModifier.Model?>) -> some View {
+    func toast(item: Binding<ToastModel?>) -> some View {
         modifier(ToastViewModifier(model: item))
     }
 }
 
-// MARK: 4 - Вьюшка для "вызова" тоста
+// MARK: 4 - Вьюшки для превью
 
-struct ToastViewExample: View {
-    @Environment(\.toastInfo) private var toastInfo
+struct ToastViewExample1: View {
     @State private var showToast = false
-    @State private var toastModel: ToastViewModifier.Model?
+    @State private var toastModel: ToastModel?
     
     var body: some View {
         NavigationView {
+            ChildView()
+                .navigationTitle("Тестируем тосты")
+        }
+        .environment(\.toastInfo) { model in
+            toastModel = model
+        }
+        .toast(item: $toastModel)
+    }
+    
+    struct ChildView: View {
+        @Environment(\.toastInfo) private var toastInfo
+        
+        var body: some View {
             Button("Показать тост") {
-                // Вариант 1
                 toastInfo(
                     .init(
                         title: "Тост № 1",
                         subtitle: "Краткое описание 1"
                     )
                 )
-                // Вариант 2
-//                showToast = true
-                // Вариант 3
-//                toastModel = .init(title: "Тост № 3", subtitle: "Краткое описание 3")
+            }
+            .buttonStyle(.borderedProminent)
+        }
+    }
+}
+
+struct ToastViewExample2: View {
+    @Environment(\.toastInfo) private var toastInfo
+    @State private var showToast = false
+    @State private var toastModel: ToastModel?
+    
+    var body: some View {
+        NavigationView {
+            Button("Показать тост") {
+                showToast = true
             }
             .buttonStyle(.borderedProminent)
             .navigationTitle("Тестируем тосты")
         }
-        // Вариант 2
-//        .toast(isPresented: $showToast, title: "Тост № 2", subtitle: "Краткое описание 2")
-        // Вариант 3
-//        .toast(item: $toastModel)
+        .toast(isPresented: $showToast, title: "Тост № 2", subtitle: "Краткое описание 2")
     }
 }
 
-#Preview { ToastViewExample() }
+struct ToastViewExample3: View {
+    @Environment(\.toastInfo) private var toastInfo
+    @State private var showToast = false
+    @State private var toastModel: ToastModel?
+    
+    var body: some View {
+        NavigationView {
+            Button("Показать тост") {
+                toastModel = .init(title: "Тост № 3", subtitle: "Краткое описание 3")
+            }
+            .buttonStyle(.borderedProminent)
+            .navigationTitle("Тестируем тосты")
+        }
+        .toast(item: $toastModel)
+    }
+}
+
+#Preview("Вариант 1") { ToastViewExample1() }
+#Preview("Вариант 2") { ToastViewExample2() }
+#Preview("Вариант 3") { ToastViewExample3() }

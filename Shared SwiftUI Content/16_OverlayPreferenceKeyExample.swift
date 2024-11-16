@@ -2,7 +2,7 @@ import SwiftUI
 
 // 1 - Создаем новый PreferenceKey для хранения значения в формате CGFLoat из слайдера
 struct ProgressPreferenceKey: PreferenceKey {
-    static var defaultValue: CGFloat = 0
+    static let defaultValue: CGFloat = 0
 
     static func reduce(value: inout CGFloat, nextValue: () -> CGFloat) {
         value = nextValue()

@@ -56,7 +56,7 @@ struct LoggerExample: View {
     }
 }
 
-private final class LoggerGetter: ObservableObject {
+private final class LoggerGetter: ObservableObject, @unchecked Sendable {
     private let logger = Logger(subsystem: Bundle.main.bundleIdentifier!, category: "LoggerGetter")
     @Published private(set) var state = State.empty
     var logs: [State.LogModel] {

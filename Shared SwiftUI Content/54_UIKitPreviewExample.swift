@@ -71,7 +71,9 @@ final class VCExampleForPreview: UIViewController {
             label.widthAnchor.constraint(equalToConstant: view.bounds.width).isActive = true
             return label
         }
-        demoItems.forEach(stackView.addArrangedSubview)
+        demoItems.forEach {
+            stackView.addArrangedSubview($0)
+        }
         NSLayoutConstraint.activate([
             stackView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             stackView.centerYAnchor.constraint(equalTo: view.centerYAnchor),

@@ -7,12 +7,13 @@
 
 import SwiftUI
 
-final class DemoTaskViewModel {
+// @unchecked Sendable используется для сохранения работоспособности примера в Swift < 6
+final class DemoTaskViewModel: @unchecked Sendable {
     private var demoInt = 0
     
     func runTask() {
         Task { [weak self] in
-            print("стартовали таск, int = \(self?.demoInt)")
+            print("стартовали таск, int = \(String(describing: self?.demoInt))")
             try? await Task.sleep(nanoseconds: 3000000000)
             guard let self else { return }
             let randomInt = Int.random(in: 0...100000)

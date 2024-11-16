@@ -12,7 +12,7 @@ enum ColorThemeService {
     ///
     /// Можно вызвать внутри `onAppear` на самой первой вьюшке в иерархии приложения
     /// - Parameter newValue: Новая тема
-    static func set(_ newValue: Theme) {
+    @MainActor static func set(_ newValue: Theme) {
         var userInterfaceStyle: UIUserInterfaceStyle
         switch newValue {
         case .dark:

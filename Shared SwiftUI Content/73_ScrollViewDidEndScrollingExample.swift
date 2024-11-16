@@ -5,7 +5,7 @@ import Combine
 
 // 1 - Создаем новый PreferenceKey для хранения значения оффсета скролла
 fileprivate struct ViewOffsetKey: PreferenceKey {
-    static var defaultValue = CGFloat.zero
+    static let defaultValue = CGFloat.zero
     
     static func reduce(value: inout CGFloat, nextValue: () -> CGFloat) {
         value += nextValue()
