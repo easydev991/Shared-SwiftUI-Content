@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,8 +17,16 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		67128B9B2CE87DB400FBD95B /* DemoPackages */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = DemoPackages; sourceTree = "<group>"; };
-		67EFF66E2CE7998700B0F222 /* Shared SwiftUI Content */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Shared SwiftUI Content"; sourceTree = "<group>"; };
+		67128B9B2CE87DB400FBD95B /* DemoPackages */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DemoPackages;
+			sourceTree = "<group>";
+		};
+		67EFF66E2CE7998700B0F222 /* Shared SwiftUI Content */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Shared SwiftUI Content";
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +99,6 @@
 				};
 			};
 			buildConfigurationList = 67939CE6298E422700B7F059 /* Build configuration list for PBXProject "Shared SwiftUI Content" */;
-			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = ru;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -103,6 +110,7 @@
 			packageReferences = (
 				67A9AEB92CD604BB00F10DA0 /* XCLocalSwiftPackageReference "DemoPackages/ProtocolForView" */,
 			);
+			preferredProjectObjectVersion = 77;
 			productRefGroup = 67939CEC298E422700B7F059 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -283,7 +291,7 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -318,7 +326,7 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
