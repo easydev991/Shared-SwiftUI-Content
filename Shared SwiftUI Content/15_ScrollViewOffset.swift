@@ -27,10 +27,10 @@ struct ScrollViewOffsetDemo: View {
                 .foregroundColor(.white)
         }
         .onPreferenceChange(_ContainedScrollViewKey.self) { newValue in
-            if let contentOffset = newValue?.contentOffset.y,
-               offset != contentOffset {
-                offset = contentOffset // 6
-            }
+//            if let contentOffset = newValue?.contentOffset.y,
+//               offset != contentOffset {
+//                offset = contentOffset // 6
+//            }
         }
     }
 

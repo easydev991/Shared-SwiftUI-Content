@@ -29,7 +29,7 @@ extension SUIOnboarding {
                 content
                     .navigationTitle(hideNavigationTitle ? "" : navigationTitle)
                     .onPreferenceChange(MaskFramePreferenceKey.self) { newItems in
-                        updateAllItems(newItems: newItems)
+//                        updateAllItems(newItems: newItems)
                     }
                     .onChange(of: allItems) { newItems in
                         updateCurrentItemFrame(items: newItems)
