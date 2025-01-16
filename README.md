@@ -104,6 +104,7 @@
 99. Располагаем контент и ограничиваем скролл в SwiftUI, [medium](https://oleg991.medium.com/99-располагаем-контент-и-ограничиваем-скролл-в-swiftui-dbad0586db76)
 100. Отслеживаем жизненный цикл приложения, [medium](
 https://oleg991.medium.com/100-отслеживаем-жизненный-цикл-приложения-239726860eae)
+101. Разбираемся с Accessibility Inspector, [medium](https://oleg991.medium.com/8b914794c1b5)
 
 ## Про меня
 - Статья 1 - как я пришел в iOS-разработку, [boosty](https://boosty.to/oleg991/posts/52e071f3-68bd-43ea-95a3-5c834f180939?share=post_link)
