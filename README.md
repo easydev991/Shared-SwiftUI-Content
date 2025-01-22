@@ -105,6 +105,7 @@
 100. Отслеживаем жизненный цикл приложения, [medium](
 https://oleg991.medium.com/100-отслеживаем-жизненный-цикл-приложения-239726860eae)
 101. Разбираемся с Accessibility Inspector, [medium](https://oleg991.medium.com/8b914794c1b5)
+102. Памятка по Swift Package, [medium](https://medium.com/@oleg991/102-памятка-по-swift-package-4d8b79e00527)
 
 ## Про меня
 - Статья 1 - как я пришел в iOS-разработку, [boosty](https://boosty.to/oleg991/posts/52e071f3-68bd-43ea-95a3-5c834f180939?share=post_link)
