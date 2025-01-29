@@ -106,6 +106,7 @@
 https://oleg991.medium.com/100-отслеживаем-жизненный-цикл-приложения-239726860eae)
 101. Разбираемся с Accessibility Inspector, [medium](https://oleg991.medium.com/8b914794c1b5)
 102. Памятка по Swift Package, [medium](https://medium.com/@oleg991/102-памятка-по-swift-package-4d8b79e00527)
+103. Памятка по публикации в TestFlight (2025), [medium](https://oleg991.medium.com/c56fcf15a051)
 
 ## Про меня
 - Статья 1 - как я пришел в iOS-разработку, [boosty](https://boosty.to/oleg991/posts/52e071f3-68bd-43ea-95a3-5c834f180939?share=post_link)
@@ -129,6 +130,7 @@ https://oleg991.medium.com/100-отслеживаем-жизненный-цик�
 - Погружаемся в SwiftUI с большим опытом на UIKit, [boosty](https://boosty.to/oleg991/posts/7cdc1b37-65e1-4997-beb4-7930fe4e81ab?share=post_link)
 - Определяем качество кода, [boosty](https://boosty.to/oleg991/posts/15eebc61-d29d-4a6c-9675-c5048ae62227?share=post_link)
 - Как справляться с большими и сложными задачами, [boosty](https://boosty.to/oleg991/posts/ab6cfdfe-15a1-4bb9-9a7d-9de8c13b6e73?share=post_link)
+- Нейросети в руках iOS-разработчика, [telegram](https://t.me/easy_dev991/170)
 
 ### Вопросы к тех. собесу
 - Часть 1, [boosty](https://boosty.to/oleg991/posts/b3575f06-d5ab-4b4b-9318-7f9f8b05d8db?share=post_link)
