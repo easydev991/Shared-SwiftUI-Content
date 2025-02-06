@@ -1,0 +1,31 @@
+{
+  "configurations" : [
+    {
+      "id" : "24BCD70C-D366-4CA1-A20E-485A8FF71634",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:DemoPackages\/DeeplinkParser",
+        "identifier" : "DeeplinkParserTests",
+        "name" : "DeeplinkParserTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:DemoPackages\/CustomHorizontalCollection",
+        "identifier" : "CustomHorizontalCollectionTests",
+        "name" : "CustomHorizontalCollectionTests"
+      }
+    }
+  ],
+  "version" : 1
+}
