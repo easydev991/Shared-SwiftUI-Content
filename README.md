@@ -108,6 +108,7 @@ https://oleg991.medium.com/100-отслеживаем-жизненный-цик�
 102. Памятка по Swift Package, [medium](https://medium.com/@oleg991/102-памятка-по-swift-package-4d8b79e00527)
 103. Памятка по публикации в TestFlight (2025), [medium](https://oleg991.medium.com/c56fcf15a051)
 104. Показываем алерт в отдельном окне, [medium](https://medium.com/@oleg991/104-показываем-алерт-в-отдельном-окне-7707cef2a8bc)
+105. GitHub Actions для юнит-тестов, [medium](https://medium.com/@oleg991/105-github-actions-для-юнит-тестов-f3b9f09cefb5)
 
 ## Про меня
 - Статья 1 - как я пришел в iOS-разработку, [boosty](https://boosty.to/oleg991/posts/52e071f3-68bd-43ea-95a3-5c834f180939?share=post_link)
