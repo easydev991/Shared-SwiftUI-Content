@@ -14,16 +14,23 @@
   "testTargets" : [
     {
       "target" : {
-        "containerPath" : "container:DemoPackages\/DeeplinkParser",
-        "identifier" : "DeeplinkParserTests",
-        "name" : "DeeplinkParserTests"
+        "containerPath" : "container:DemoPackages\/CustomHorizontalCollection",
+        "identifier" : "CustomHorizontalCollectionTests",
+        "name" : "CustomHorizontalCollectionTests"
       }
     },
     {
       "target" : {
-        "containerPath" : "container:DemoPackages\/CustomHorizontalCollection",
-        "identifier" : "CustomHorizontalCollectionTests",
-        "name" : "CustomHorizontalCollectionTests"
+        "containerPath" : "container:DemoPackages\/VpnChecker",
+        "identifier" : "VpnCheckerTests",
+        "name" : "VpnCheckerTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:DemoPackages\/DeeplinkParser",
+        "identifier" : "DeeplinkParserTests",
+        "name" : "DeeplinkParserTests"
       }
     }
   ],

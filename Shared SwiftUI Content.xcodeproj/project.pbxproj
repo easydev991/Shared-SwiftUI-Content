@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		673AA1B32CF9A19800AFA32F /* DeeplinkParser in Frameworks */ = {isa = PBXBuildFile; productRef = 673AA1B22CF9A19800AFA32F /* DeeplinkParser */; };
+		6769CBE92D5E364B0060D9FF /* VpnChecker in Frameworks */ = {isa = PBXBuildFile; productRef = 6769CBE82D5E364B0060D9FF /* VpnChecker */; };
 		67A9AEBB2CD604BB00F10DA0 /* PFVImplementation in Frameworks */ = {isa = PBXBuildFile; productRef = 67A9AEBA2CD604BB00F10DA0 /* PFVImplementation */; };
 		67A9AEBD2CD604BB00F10DA0 /* PFVInterface in Frameworks */ = {isa = PBXBuildFile; productRef = 67A9AEBC2CD604BB00F10DA0 /* PFVInterface */; };
 		67CD5FA02CD8CC36001669C1 /* CustomHorizontalCollection in Frameworks */ = {isa = PBXBuildFile; productRef = 67CD5F9F2CD8CC36001669C1 /* CustomHorizontalCollection */; };
@@ -49,6 +50,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67CD5FA02CD8CC36001669C1 /* CustomHorizontalCollection in Frameworks */,
+				6769CBE92D5E364B0060D9FF /* VpnChecker in Frameworks */,
 				67A9AEBB2CD604BB00F10DA0 /* PFVImplementation in Frameworks */,
 				67A9AEBD2CD604BB00F10DA0 /* PFVInterface in Frameworks */,
 				673AA1B32CF9A19800AFA32F /* DeeplinkParser in Frameworks */,
@@ -125,6 +127,7 @@
 			packageReferences = (
 				67A9AEB92CD604BB00F10DA0 /* XCLocalSwiftPackageReference "DemoPackages/ProtocolForView" */,
 				673AA1B12CF9A19800AFA32F /* XCLocalSwiftPackageReference "DemoPackages/DeeplinkParser" */,
+				6769CBE72D5E364B0060D9FF /* XCLocalSwiftPackageReference "DemoPackages/VpnChecker" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 67939CEC298E422700B7F059 /* Products */;
@@ -375,6 +378,10 @@
 			isa = XCLocalSwiftPackageReference;
 			relativePath = DemoPackages/DeeplinkParser;
 		};
+		6769CBE72D5E364B0060D9FF /* XCLocalSwiftPackageReference "DemoPackages/VpnChecker" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = DemoPackages/VpnChecker;
+		};
 		67A9AEB92CD604BB00F10DA0 /* XCLocalSwiftPackageReference "DemoPackages/ProtocolForView" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = DemoPackages/ProtocolForView;
@@ -385,6 +392,10 @@
 		673AA1B22CF9A19800AFA32F /* DeeplinkParser */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = DeeplinkParser;
+		};
+		6769CBE82D5E364B0060D9FF /* VpnChecker */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = VpnChecker;
 		};
 		67A9AEBA2CD604BB00F10DA0 /* PFVImplementation */ = {
 			isa = XCSwiftPackageProductDependency;
