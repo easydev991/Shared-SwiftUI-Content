@@ -113,42 +113,42 @@ https://oleg991.medium.com/100-отслеживаем-жизненный-цик�
 107. Определяем активное VPN-подключение, [medium](https://oleg991.medium.com/ec4a1e558b7c)
 
 ## Про меня
-- Статья 1 - как я пришел в iOS-разработку, [boosty](https://boosty.to/oleg991/posts/52e071f3-68bd-43ea-95a3-5c834f180939?share=post_link)
-- Статья 2 - мой первый коммерческий опыт в iOS, [boosty](https://boosty.to/oleg991/posts/45911ecf-c3e0-423d-950c-d54675935a48?share=post_link)
-- Статья 3 - опыт работы миддлом и фарм офферов, [boosty](https://boosty.to/oleg991/posts/ecef495e-f9d1-4431-a307-d1e865707abb?share=post_link)
-- Статья 4 - как я стал ведущим и перешел на 400k, [boosty](https://boosty.to/oleg991/posts/d77f881e-f902-46ee-8e86-051aa1cf60d0?share=post_link)
+- Статья 1 - как я пришел в iOS-разработку, [telegram](https://t.me/easy_dev991/46)
+- Статья 2 - мой первый коммерческий опыт в iOS, [telegram](https://t.me/easy_dev991/53)
+- Статья 3 - опыт работы миддлом и фарм офферов, [telegram](https://t.me/easy_dev991/58)
+- Статья 4 - как я стал ведущим и перешел на 400k, [telegram](https://t.me/easy_dev991/63)
 - Статья 5 - про передачу опыта, [telegraph](https://telegra.ph/Pro-peredachu-opyta-07-06)
 
 ## Как стать iOS-разработчиком
-- Статья 1 - общий план, [boosty](https://boosty.to/oleg991/posts/88b62753-0b81-443a-8c4c-74e5bc305ed7?share=post_link)
-- Статья 2 - про работу с Git, [boosty](https://boosty.to/oleg991/posts/d1649783-883b-4306-8858-88acf8fdcbf7?share=post_link)
-- Статья 3 - про команду, [boosty](https://boosty.to/oleg991/posts/f820acab-f828-4c9b-baf3-d62f3c83bda5?share=post_link)
-- Статья 4 - изучаем Swift и делаем первые приложения, [boosty](https://boosty.to/oleg991/posts/73266f9d-d822-46bc-a3ee-e457fa5f7470?share=post_link)
-- Статья 5 - рынок труда для iOS-разработчика, [boosty](https://boosty.to/oleg991/posts/ed1dcf6c-678b-4e37-8a52-85e887fd7eb6?share=post_link)
-- Статья 6 - как общаться с рекрутерами, [boosty](https://boosty.to/oleg991/posts/990401b6-e7da-493c-ab6c-9b0b79bd79e8?share=post_link)
-- Статья 7 - успешно проходим техническое собеседование, [boosty](https://boosty.to/oleg991/posts/35e7e1f2-fb17-42f6-b5a5-24ca3ac325c5?share=post_link)
-- Статья 8 - как iOS-разработчику оценить свой уровень, [boosty](https://boosty.to/oleg991/posts/b30a223d-eafd-42d4-b083-1e26fb0eb648?share=post_link)
-- Статья 9 - побеждаем синдром самозванца, [boosty](https://boosty.to/oleg991/posts/1fc42a96-e545-41d3-82d3-76c296f05b79?share=post_link)
+- Статья 1 - общий план, [telegraph](https://telegra.ph/Kak-stat-iOS-razrabotchikom-02-23)
+- Статья 2 - про работу с Git, [telegraph](https://telegra.ph/Pro-rabotu-s-Git-02-23)
+- Статья 3 - про команду, [telegram](https://t.me/easy_dev991/84)
+- Статья 4 - изучаем Swift и делаем первые приложения, [telegraph](https://telegra.ph/Izuchaem-Swift-i-delaem-pervye-prilozheniya-02-23)
+- Статья 5 - рынок труда для iOS-разработчика, [telegram](https://t.me/easy_dev991/91)
+- Статья 6 - как общаться с рекрутерами, [telegram](https://t.me/easy_dev991/93)
+- Статья 7 - успешно проходим техническое собеседование, [telegraph](https://telegra.ph/Uspeshno-prohodim-tehnicheskoe-sobesedovanie-02-23)
+- Статья 8 - как iOS-разработчику оценить свой уровень, [telegram](https://t.me/easy_dev991/97)
+- Статья 9 - побеждаем синдром самозванца, [telegram](https://t.me/easy_dev991/99)
 
 ### Повышение квалификации
-- Погружаемся в SwiftUI с большим опытом на UIKit, [boosty](https://boosty.to/oleg991/posts/7cdc1b37-65e1-4997-beb4-7930fe4e81ab?share=post_link)
-- Определяем качество кода, [boosty](https://boosty.to/oleg991/posts/15eebc61-d29d-4a6c-9675-c5048ae62227?share=post_link)
-- Как справляться с большими и сложными задачами, [boosty](https://boosty.to/oleg991/posts/ab6cfdfe-15a1-4bb9-9a7d-9de8c13b6e73?share=post_link)
+- Погружаемся в SwiftUI с большим опытом на UIKit, [telegram](https://t.me/easy_dev991/123)
+- Определяем качество кода, [telegram](https://t.me/easy_dev991/125)
+- Как справляться с большими и сложными задачами, [telegram](https://t.me/easy_dev991/128)
 - Нейросети в руках iOS-разработчика, [telegram](https://t.me/easy_dev991/170)
 
 ### Вопросы к тех. собесу
-- Часть 1, [boosty](https://boosty.to/oleg991/posts/b3575f06-d5ab-4b4b-9318-7f9f8b05d8db?share=post_link)
-- Часть 2, [boosty](https://boosty.to/oleg991/posts/8622e071-61a5-468f-a77f-be2f1867e832?share=post_link)
-- Часть 3, [boosty](https://boosty.to/oleg991/posts/4f96c965-b9b4-46d1-842d-7607bde9e18e?share=post_link)
-- Часть 4, [boosty](https://boosty.to/oleg991/posts/a4184401-f6c6-43da-a8cc-57783d52dd6b?share=post_link)
-- Часть 5, [boosty](https://boosty.to/oleg991/posts/3b0c45f3-3885-47a9-a209-ce1042e713cd?share=post_link)
+- Часть 1, [telegram](https://t.me/easy_dev991/113)
+- Часть 2, [telegram](https://t.me/easy_dev991/115)
+- Часть 3, [telegram](https://t.me/easy_dev991/117)
+- Часть 4, [telegram](https://t.me/easy_dev991/119)
+- Часть 5, [telegram](https://t.me/easy_dev991/121)
 
 ### Сложнейшие задачи по SwiftUI
-- Первая, [boosty](https://boosty.to/oleg991/posts/885da921-bd3b-4697-b7e3-8ca715ef6d02?share=post_link)
-- Вторая, [boosty](https://boosty.to/oleg991/posts/700ab66b-5f76-4c46-8561-4d5333271d99?share=post_link)
-- Третья, [boosty](https://boosty.to/oleg991/posts/e704ecd8-792e-49ab-8aea-4a59b1b4d6e4?share=post_link)
+- Часть 1, [telegram](https://t.me/easy_dev991/104)
+- Часть 2, [telegram](https://t.me/easy_dev991/107)
+- Часть 3, [telegram](https://t.me/easy_dev991/109)
 
 ## Видео
 - Мок-собеседование iOS разработчика, [youtube](https://www.youtube.com/watch?v=MyzNw60Swww)
-- Собес на тему дизайн-системы в iOS, [boosty](https://boosty.to/oleg991/posts/162b2d88-b20a-4fb2-b394-72950a9a75c2?share=post_link)
+- Собес на тему дизайн-системы в iOS, [telegram](https://t.me/easy_dev991/111)
 - Собеседование iOS Разработчика, [youtube](https://www.youtube.com/watch?v=UBmT1XUw2Dk)
