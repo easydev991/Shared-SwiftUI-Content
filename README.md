@@ -113,6 +113,7 @@ https://oleg991.medium.com/239726860eae)
 107. Определяем активное VPN-подключение, [medium](https://oleg991.medium.com/ec4a1e558b7c)
 108. Связываем обновление вьюмоделей, [medium](https://oleg991.medium.com/c7c49c1a932c)
 109. Памятка по fastlane snapshot, [medium](https://oleg991.medium.com/e8f05cdaa894), [telegraph](https://telegra.ph/109-Pamyatka-po-fastlane-snapshot-02-23)
+110. Добавляем событие в календарь, [medium](https://oleg991.medium.com/7fff0fda216e)
 
 ## Про меня
 - Статья 1 - как я пришел в iOS-разработку, [telegram](https://t.me/easy_dev991/46)
