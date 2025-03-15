@@ -66,7 +66,7 @@
 61. Примеры для MatchedGeometryEffect, [medium](https://oleg991.medium.com/61d2da9380fa), [telegraph](https://telegra.ph/61-Primery-dlya-MatchedGeometryEffect-04-05)
 62. Польза от .drawingGroup() и .compositingGroup(), [medium](https://oleg991.medium.com/b65b026d96dc), [telegraph](https://telegra.ph/62-Polza-ot-drawingGroup-i-compositingGroup-04-12)
 63. Удобный скролл в iOS 17, [medium](https://oleg991.medium.com/5f190b359559), [telegraph](https://telegra.ph/63-Udobnyj-skroll-v-iOS-17-04-16)
-64. Какой макбук выбрать в 2024 году, [medium](https://oleg991.medium.com/1296d29ed4b2), [telegraph](https://telegra.ph/64-Kakoj-makbuk-vybrat-v-2024-godu-04-19)
+64. Какой макбук выбрать в 2024 году, [medium](https://oleg991.medium.com/1296d29ed4b2)
 65. Чем опасен if-модификатор, [medium](https://oleg991.medium.com/66a70a23362a), [telegraph](https://telegra.ph/65-CHem-opasen-if-modifikator-04-26)
 66. Выбираем подходящую по размеру вьюху, [medium](https://oleg991.medium.com/90958a4b8e4e), [telegraph](https://telegra.ph/66-Vybiraem-podhodyashchuyu-po-razmeru-vyuhu-05-08)
 67. Для чего нужен Task.yeld() в Swift, [medium](https://oleg991.medium.com/626ee5d94734), [telegraph](https://telegra.ph/67Dlya-chego-nuzhen-Taskyeld-v-Swift-05-16)
@@ -102,8 +102,7 @@
 97. Выключаем скролл для ScrollView и TabView, [medium](https://oleg991.medium.com/9b1b32d1be03)
 98. Переезжаем на UIHostingController, [medium](https://oleg991.medium.com/c38bdb9bc5ff)
 99. Располагаем контент и ограничиваем скролл в SwiftUI, [medium](https://oleg991.medium.com/dbad0586db76)
-100. Отслеживаем жизненный цикл приложения, [medium](
-https://oleg991.medium.com/239726860eae)
+100. Отслеживаем жизненный цикл приложения, [medium](https://oleg991.medium.com/239726860eae)
 101. Разбираемся с Accessibility Inspector, [medium](https://oleg991.medium.com/8b914794c1b5)
 102. Памятка по Swift Package, [medium](https://medium.com/@oleg991/102-памятка-по-swift-package-4d8b79e00527)
 103. Памятка по публикации в TestFlight (2025), [medium](https://oleg991.medium.com/c56fcf15a051)
@@ -126,7 +125,8 @@ https://oleg991.medium.com/239726860eae)
 - Статья 4 - как я стал ведущим и перешел на 400k, [telegram](https://t.me/easy_dev991/63)
 - Статья 5 - про передачу опыта, [telegraph](https://telegra.ph/Pro-peredachu-opyta-07-06)
 
-## Как стать iOS-разработчиком
+## Про iOS-разработку
+### Как стать iOS-разработчиком
 - Статья 1 - общий план, [telegraph](https://telegra.ph/Kak-stat-iOS-razrabotchikom-02-23)
 - Статья 2 - про работу с Git, [telegraph](https://telegra.ph/Pro-rabotu-s-Git-02-23)
 - Статья 3 - про команду, [telegram](https://t.me/easy_dev991/84)
@@ -141,7 +141,6 @@ https://oleg991.medium.com/239726860eae)
 - Погружаемся в SwiftUI с большим опытом на UIKit, [telegram](https://t.me/easy_dev991/123)
 - Определяем качество кода, [telegram](https://t.me/easy_dev991/125)
 - Как справляться с большими и сложными задачами, [telegram](https://t.me/easy_dev991/128)
-- Нейросети в руках iOS-разработчика, [telegram](https://t.me/easy_dev991/170)
 
 ### Вопросы к тех. собесу
 - Часть 1, [telegram](https://t.me/easy_dev991/113)
