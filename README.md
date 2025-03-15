@@ -102,8 +102,7 @@
 97. Выключаем скролл для ScrollView и TabView, [medium](https://oleg991.medium.com/9b1b32d1be03)
 98. Переезжаем на UIHostingController, [medium](https://oleg991.medium.com/c38bdb9bc5ff)
 99. Располагаем контент и ограничиваем скролл в SwiftUI, [medium](https://oleg991.medium.com/dbad0586db76)
-100. Отслеживаем жизненный цикл приложения, [medium](
-https://oleg991.medium.com/239726860eae)
+100. Отслеживаем жизненный цикл приложения, [medium](https://oleg991.medium.com/239726860eae)
 101. Разбираемся с Accessibility Inspector, [medium](https://oleg991.medium.com/8b914794c1b5)
 102. Памятка по Swift Package, [medium](https://medium.com/@oleg991/102-памятка-по-swift-package-4d8b79e00527)
 103. Памятка по публикации в TestFlight (2025), [medium](https://oleg991.medium.com/c56fcf15a051)
@@ -122,7 +121,8 @@ https://oleg991.medium.com/239726860eae)
 - Статья 4 - как я стал ведущим и перешел на 400k, [telegram](https://t.me/easy_dev991/63)
 - Статья 5 - про передачу опыта, [telegraph](https://telegra.ph/Pro-peredachu-opyta-07-06)
 
-## Как стать iOS-разработчиком
+## Про iOS-разработку
+### Как стать iOS-разработчиком
 - Статья 1 - общий план, [telegraph](https://telegra.ph/Kak-stat-iOS-razrabotchikom-02-23)
 - Статья 2 - про работу с Git, [telegraph](https://telegra.ph/Pro-rabotu-s-Git-02-23)
 - Статья 3 - про команду, [telegram](https://t.me/easy_dev991/84)
@@ -137,7 +137,6 @@ https://oleg991.medium.com/239726860eae)
 - Погружаемся в SwiftUI с большим опытом на UIKit, [telegram](https://t.me/easy_dev991/123)
 - Определяем качество кода, [telegram](https://t.me/easy_dev991/125)
 - Как справляться с большими и сложными задачами, [telegram](https://t.me/easy_dev991/128)
-- Нейросети в руках iOS-разработчика, [telegram](https://t.me/easy_dev991/170)
 
 ### Вопросы к тех. собесу
 - Часть 1, [telegram](https://t.me/easy_dev991/113)
@@ -150,6 +149,10 @@ https://oleg991.medium.com/239726860eae)
 - Часть 1, [telegram](https://t.me/easy_dev991/104)
 - Часть 2, [telegram](https://t.me/easy_dev991/107)
 - Часть 3, [telegram](https://t.me/easy_dev991/109)
+
+### Разное
+- Нейросети в руках iOS-разработчика, [telegram](https://t.me/easy_dev991/170)
+- Очищаем память на маке от мусора Xcode и не только, [telegram](https://t.me/easy_dev991/183)
 
 ## Видео
 - Мок-собеседование iOS разработчика, [youtube](https://www.youtube.com/watch?v=MyzNw60Swww)
