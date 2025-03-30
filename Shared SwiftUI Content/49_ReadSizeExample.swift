@@ -9,7 +9,7 @@ struct SizePreferenceKey: PreferenceKey {
 // 2 - Модификатор для удобства
 extension View {
     /// Возвращает размер вьюхи в замыкании
-    func readSize(onChange: @escaping (CGSize) -> Void) -> some View {
+    func readSize(onChange: @Sendable @escaping (CGSize) -> Void) -> some View {
         background(
             GeometryReader { geometry in
                 Color.clear
@@ -32,7 +32,7 @@ struct ReadSizeExample: View {
                 .foregroundStyle(.white)
                 .padding(myViewPadding)
                 .background(backgroundRectangle)
-                .readSize { myViewSize = $0 }
+                .readSize { [$myViewSize] newValue in $myViewSize.wrappedValue = newValue }
                 .animation(.default, value: myViewPadding)
             Slider(value: $myViewPadding, in: 8...80)
         }

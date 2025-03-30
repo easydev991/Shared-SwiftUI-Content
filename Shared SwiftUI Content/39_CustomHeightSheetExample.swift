@@ -9,7 +9,7 @@ struct SafeAreaInsetsKey: PreferenceKey {
 
 extension View {
     /// Возвращает безопасную зону в замыкании
-    func readSafeAreaInsets(onChange: @escaping (EdgeInsets) -> Void) -> some View {
+    func readSafeAreaInsets(onChange: @Sendable @escaping (EdgeInsets) -> Void) -> some View {
         background(
             GeometryReader { geometry in
                 Color.clear
@@ -74,8 +74,8 @@ struct CustomHeightSheetModifier<SheetContent: View>: ViewModifier {
             }
         }
         .ignoresSafeArea(edges: .bottom)
-        .readSafeAreaInsets {
-            bottomPadding = $0.bottom
+        .readSafeAreaInsets { [$bottomPadding] newValue in
+            $bottomPadding.wrappedValue = newValue.bottom
         }
     }
 

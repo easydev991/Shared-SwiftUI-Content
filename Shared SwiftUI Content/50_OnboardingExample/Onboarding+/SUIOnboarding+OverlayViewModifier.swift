@@ -148,7 +148,9 @@ extension SUIOnboarding {
                 } else {
                     tooltipView
                         .transition(.scale.combined(with: .opacity))
-                        .readSize { tooltipViewHeight = $0.height }
+                        .readSize { [$tooltipViewHeight] newValue in
+                            $tooltipViewHeight.wrappedValue = newValue.height
+                        }
                         .position(x: helperPosition.x, y: helperPosition.y)
                 }
             }
