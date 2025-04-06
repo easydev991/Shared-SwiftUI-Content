@@ -1,0 +1,37 @@
+{
+  "sourceLanguage" : "ru",
+  "strings" : {
+    "CFBundleName" : {
+      "comment" : "Bundle name",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Shared SwiftUI Content"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "NSCalendarsUsageDescription" : {
+      "comment" : "Privacy - Calendars Usage Description",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For adding events to calendar"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Для добавления мероприятий в календарь"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

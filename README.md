@@ -116,6 +116,7 @@ https://oleg991.medium.com/239726860eae)
 110. Добавляем событие в календарь, [medium](https://oleg991.medium.com/7fff0fda216e)
 111. Делаем снимок карты, [medium](https://oleg991.medium.com/fd34d11a2482)
 112. Важный нюанс onTapGesture, [medium](https://oleg991.medium.com/bcfdc4af52c5)
+113. Локализуем Info.plist, [medium](https://oleg991.medium.com/6aea3a14f703)
 
 ## Про меня
 - Статья 1 - как я пришел в iOS-разработку, [telegram](https://t.me/easy_dev991/46)
