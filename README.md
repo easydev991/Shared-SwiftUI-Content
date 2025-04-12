@@ -117,6 +117,7 @@ https://oleg991.medium.com/239726860eae)
 111. Делаем снимок карты, [medium](https://oleg991.medium.com/fd34d11a2482)
 112. Важный нюанс onTapGesture, [medium](https://oleg991.medium.com/bcfdc4af52c5)
 113. Локализуем Info.plist, [medium](https://oleg991.medium.com/6aea3a14f703)
+114. Обзор на Xcode Cloud, [medium](https://oleg991.medium.com/4c22d3c4e301)
 
 ## Про меня
 - Статья 1 - как я пришел в iOS-разработку, [telegram](https://t.me/easy_dev991/46)
@@ -153,6 +154,11 @@ https://oleg991.medium.com/239726860eae)
 - Часть 1, [telegram](https://t.me/easy_dev991/104)
 - Часть 2, [telegram](https://t.me/easy_dev991/107)
 - Часть 3, [telegram](https://t.me/easy_dev991/109)
+
+### Разное
+- Нейросети в руках iOS-разработчика, [telegram](https://t.me/easy_dev991/170)
+- Очищаем память на маке от мусора Xcode и не только, [telegram](https://t.me/easy_dev991/183)
+- Как я оплатил подписку Apple Developer, [telegram](https://t.me/easy_dev991/192)
 
 ## Видео
 - Мок-собеседование iOS разработчика, [youtube](https://www.youtube.com/watch?v=MyzNw60Swww)
