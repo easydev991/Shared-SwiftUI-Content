@@ -6,8 +6,6 @@
 	<array>
 		<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	</array>
-	<key>NSCalendarsUsageDescription</key>
-	<string>Для добавления мероприятий в календарь</string>
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>

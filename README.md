@@ -118,6 +118,7 @@
 113. Локализуем Info.plist, [medium](https://oleg991.medium.com/6aea3a14f703)
 114. Обзор на Xcode Cloud, [medium](https://oleg991.medium.com/4c22d3c4e301)
 115. Какой макбук выбрать в 2025 году, [medium](https://oleg991.medium.com/b665aefb34df), [telegraph](https://telegra.ph/115-Kakoj-makbuk-vybrat-v-2025-godu-04-16)
+116. Делаем фото в приложении, [medium](https://oleg991.medium.com/b9750b770f0d)
 
 ## Про меня
 - Статья 1 - как я пришел в iOS-разработку, [telegram](https://t.me/easy_dev991/46)
