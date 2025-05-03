@@ -4,7 +4,7 @@ import SwiftUI
 struct Shared_SwiftUI_ContentApp: App {
     var body: some Scene {
         WindowGroup {
-            CameraAccessExample()
+            ChangeAppIconExample()
         }
     }
 }
