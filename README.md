@@ -122,6 +122,7 @@
 117. Меняем иконку в приложении, [medium](https://oleg991.medium.com/d0a93095d421)
 118. Анимируем числа в SwiftUI, [medium](https://oleg991.medium.com/0169447f480d)
 119. Следим за обновлениями в SwiftData, [medium](https://oleg991.medium.com/5c768ee6523d)
+120. Бейдж для уведомлений на иконке и в таббаре, [medium](https://oleg991.medium.com/3f09b3f7e57c)
 
 ## Про меня
 - Статья 1 - как я пришел в iOS-разработку, [telegram](https://t.me/easy_dev991/46)
