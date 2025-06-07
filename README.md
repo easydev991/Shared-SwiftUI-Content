@@ -124,6 +124,7 @@
 119. Следим за обновлениями в SwiftData, [medium](https://oleg991.medium.com/5c768ee6523d)
 120. Бейдж для уведомлений на иконке и в таббаре, [medium](https://oleg991.medium.com/3f09b3f7e57c)
 121. Настраиваем регулярное уведомление, [medium](https://oleg991.medium.com/8835eeef93c9)
+122. Автоматизируем рутину в iOS-проекте, [medium](https://oleg991.medium.com/f284a4379f27), [telegraph](https://telegra.ph/122-Avtomatiziruem-rutinu-v-iOS-proekte-06-05)
 
 ## Про меня
 - Статья 1 - как я пришел в iOS-разработку, [telegram](https://t.me/easy_dev991/46)
