@@ -126,6 +126,7 @@
 121. Настраиваем регулярное уведомление, [medium](https://oleg991.medium.com/8835eeef93c9)
 122. Автоматизируем рутину в iOS-проекте, [medium](https://oleg991.medium.com/f284a4379f27), [telegraph](https://telegra.ph/122-Avtomatiziruem-rutinu-v-iOS-proekte-06-05)
 123. Публикуем сборку с fastlane, [medium](https://oleg991.medium.com/92ad2aacbff1)
+124. Адаптируем NavigationSplitView, [medium](https://oleg991.medium.com/9f25ccc1454a), [telegraph](https://telegra.ph/124-Adaptiruem-NavigationSplitView-06-21)
 
 ## Про меня
 - Статья 1 - как я пришел в iOS-разработку, [telegram](https://t.me/easy_dev991/46)
