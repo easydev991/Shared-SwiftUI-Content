@@ -14,7 +14,18 @@
 		67CD5FA02CD8CC36001669C1 /* CustomHorizontalCollection in Frameworks */ = {isa = PBXBuildFile; productRef = 67CD5F9F2CD8CC36001669C1 /* CustomHorizontalCollection */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		6716AA9C2E192F4F0057E199 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67939CE3298E422700B7F059 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67939CEA298E422700B7F059;
+			remoteInfo = "Shared SwiftUI Content";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		6716AA982E192F4F0057E199 /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67939CEB298E422700B7F059 /* Shared SwiftUI Content.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shared SwiftUI Content.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -34,6 +45,11 @@
 			path = DemoPackages;
 			sourceTree = "<group>";
 		};
+		6716AA992E192F4F0057E199 /* UnitTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = UnitTests;
+			sourceTree = "<group>";
+		};
 		67EFF66E2CE7998700B0F222 /* Shared SwiftUI Content */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -45,6 +61,13 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6716AA952E192F4F0057E199 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		67939CE8298E422700B7F059 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -65,6 +88,7 @@
 			children = (
 				67128B9B2CE87DB400FBD95B /* DemoPackages */,
 				67EFF66E2CE7998700B0F222 /* Shared SwiftUI Content */,
+				6716AA992E192F4F0057E199 /* UnitTests */,
 				67939CEC298E422700B7F059 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				67939CEB298E422700B7F059 /* Shared SwiftUI Content.app */,
+				6716AA982E192F4F0057E199 /* UnitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,6 +105,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6716AA972E192F4F0057E199 /* UnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6716AA9E2E192F4F0057E199 /* Build configuration list for PBXNativeTarget "UnitTests" */;
+			buildPhases = (
+				6716AA942E192F4F0057E199 /* Sources */,
+				6716AA952E192F4F0057E199 /* Frameworks */,
+				6716AA962E192F4F0057E199 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6716AA9D2E192F4F0057E199 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6716AA992E192F4F0057E199 /* UnitTests */,
+			);
+			name = UnitTests;
+			packageProductDependencies = (
+			);
+			productName = UnitTests;
+			productReference = 6716AA982E192F4F0057E199 /* UnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		67939CEA298E422700B7F059 /* Shared SwiftUI Content */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67939CF9298E422900B7F059 /* Build configuration list for PBXNativeTarget "Shared SwiftUI Content" */;
@@ -107,9 +155,13 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1540;
+				LastSwiftUpdateCheck = 1640;
 				LastUpgradeCheck = 1640;
 				TargetAttributes = {
+					6716AA972E192F4F0057E199 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 67939CEA298E422700B7F059;
+					};
 					67939CEA298E422700B7F059 = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -135,11 +187,19 @@
 			projectRoot = "";
 			targets = (
 				67939CEA298E422700B7F059 /* Shared SwiftUI Content */,
+				6716AA972E192F4F0057E199 /* UnitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6716AA962E192F4F0057E199 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		67939CE9298E422700B7F059 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -150,6 +210,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6716AA942E192F4F0057E199 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		67939CE7298E422700B7F059 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -159,7 +226,64 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		6716AA9D2E192F4F0057E199 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67939CEA298E422700B7F059 /* Shared SwiftUI Content */;
+			targetProxy = 6716AA9C2E192F4F0057E199 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		6716AA9F2E192F4F0057E199 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3PHS45582J;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oleg991.Shared-SwiftUI-Content.UnitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shared SwiftUI Content.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shared SwiftUI Content";
+			};
+			name = Debug;
+		};
+		6716AAA02E192F4F0057E199 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3PHS45582J;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oleg991.Shared-SwiftUI-Content.UnitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shared SwiftUI Content.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shared SwiftUI Content";
+			};
+			name = Release;
+		};
 		67939CF7298E422900B7F059 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -365,6 +489,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6716AA9E2E192F4F0057E199 /* Build configuration list for PBXNativeTarget "UnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6716AA9F2E192F4F0057E199 /* Debug */,
+				6716AAA02E192F4F0057E199 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		67939CE6298E422700B7F059 /* Build configuration list for PBXProject "Shared SwiftUI Content" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -14,9 +14,9 @@
   "testTargets" : [
     {
       "target" : {
-        "containerPath" : "container:DemoPackages\/CustomHorizontalCollection",
-        "identifier" : "CustomHorizontalCollectionTests",
-        "name" : "CustomHorizontalCollectionTests"
+        "containerPath" : "container:Shared SwiftUI Content.xcodeproj",
+        "identifier" : "6716AA972E192F4F0057E199",
+        "name" : "UnitTests"
       }
     },
     {
@@ -31,6 +31,13 @@
         "containerPath" : "container:DemoPackages\/DeeplinkParser",
         "identifier" : "DeeplinkParserTests",
         "name" : "DeeplinkParserTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:DemoPackages\/CustomHorizontalCollection",
+        "identifier" : "CustomHorizontalCollectionTests",
+        "name" : "CustomHorizontalCollectionTests"
       }
     }
   ],
