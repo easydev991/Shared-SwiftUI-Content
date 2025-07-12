@@ -129,6 +129,7 @@
 124. Адаптируем NavigationSplitView, [medium](https://oleg991.medium.com/9f25ccc1454a), [telegraph](https://telegra.ph/124-Adaptiruem-NavigationSplitView-06-21)
 125. Отзыв на Cursor в 2025 году, [medium](https://oleg991.medium.com/6b7e2dc7a8d2), [telegraph](https://telegra.ph/125-Otzyv-na-Cursor-v-2025-godu-06-29)
 126. AppStorage для кастомных типов, [medium](https://oleg991.medium.com/a1b0dbbb7f9d)
+127. Auto-Run Mode (cursor), [medium](https://oleg991.medium.com/8db4aff3b209), [telegraph](https://telegra.ph/127-Auto-Run-Mode-cursor-07-12)
 
 ## Про меня
 - Статья 1 - как я пришел в iOS-разработку, [telegram](https://t.me/easy_dev991/46)
