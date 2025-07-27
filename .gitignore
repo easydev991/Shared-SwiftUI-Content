@@ -3,3 +3,4 @@
 *.xcuserstate
 *.xcbkptlist
 *.xcuserstate
+/.venv
