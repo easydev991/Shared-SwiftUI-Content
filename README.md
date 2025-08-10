@@ -132,6 +132,7 @@
 127. Auto-Run Mode (cursor), [medium](https://oleg991.medium.com/8db4aff3b209), [telegraph](https://telegra.ph/127-Auto-Run-Mode-cursor-07-12)
 128. Fastlane для отправки скриншотов, [telegraph](https://telegra.ph/128-Fastlane-dlya-otpravki-skrinshotov-07-27)
 129. AttributedString для разных шрифтов, [medium](https://oleg991.medium.com/f493808f51db)
+130. Прокачиваем fastlane, [medium](https://oleg991.medium.com/d54b26eaf16f)
 
 ## Про меня
 - Статья 1 - как я пришел в iOS-разработку, [telegram](https://t.me/easy_dev991/46)
